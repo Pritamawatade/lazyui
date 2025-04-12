@@ -1,22 +1,10 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry.json",
   "name": "lazyui",
-  "homepage": "https://www.lazyui.online/",
+  "homepage": "https://registry.lazyui.online/",
   "items": [
     {
-      "name": "hello-world",
-      "type": "registry:block",
-      "title": "Hello World",
-      "description": "A simple hello world component.",
-      "files": [
-        {
-          "path": "registry/new-york/hello-world/hello-world.tsx",
-          "type": "registry:component"
-        }
-      ]
-    },
-    {
-      "name": "navbr",
+      "name": "navbar",
       "type": "registry:block",
       "title": "Navbar",
       "description": "Nabvar component with theme button",
@@ -28,7 +16,7 @@
       ]
     },
     {
-      "name": "buton",
+      "name": "button",
       "type": "registry:block",
       "title": "Button",
       "description": "Button component with animation",
@@ -38,50 +26,7 @@
           "type": "registry:component"
         }
       ]
-    },
-    {
-      "name": "example-form",
-      "type": "registry:component",
-      "title": "Example Form",
-      "description": "A contact form with Zod validation.",
-      "dependencies": ["zod"],
-      "registryDependencies": ["button", "input", "label", "textarea", "card"],
-      "files": [
-        {
-          "path": "registry/new-york/example-form/example-form.tsx",
-          "type": "registry:component"
-        }
-      ]
-    },
-    {
-      "name": "complex-component",
-      "type": "registry:component",
-      "title": "Complex Component",
-      "description": "A complex component showing hooks, libs and components.",
-      "registryDependencies": ["card"],
-      "files": [
-        {
-          "path": "registry/new-york/complex-component/page.tsx",
-          "type": "registry:page",
-          "target": "app/pokemon/page.tsx"
-        },
-        {
-          "path": "registry/new-york/complex-component/components/pokemon-card.tsx",
-          "type": "registry:component"
-        },
-        {
-          "path": "registry/new-york/complex-component/components/pokemon-image.tsx",
-          "type": "registry:component"
-        },
-        {
-          "path": "registry/new-york/complex-component/lib/pokemon.ts",
-          "type": "registry:lib"
-        },
-        {
-          "path": "registry/new-york/complex-component/hooks/use-pokemon.ts",
-          "type": "registry:hook"
-        }
-      ]
     }
+   
   ]
 }
