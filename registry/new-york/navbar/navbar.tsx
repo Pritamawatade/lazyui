@@ -32,7 +32,8 @@ const Navbar = ({
 }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [isDark, setIsDark] = useState(false);
-  const [activeDropdown, setActiveDropdown] = useState(null);
+  const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
+
 
   useEffect(() => {
     if (isDark) {

@@ -1,15 +1,17 @@
 "use client";
+// ✅ NEW:
+import { HTMLMotionProps } from "framer-motion";
+
+
 
 import React, { useState, MouseEvent } from "react";
-import { motion, AnimatePresence } from "framer-motion";
-
-
+import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
 
 type ButtonVariant = "primary" | "secondary" | "danger" | "success";
 type ButtonSize = "small" | "medium" | "large";
 
-interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
+interface ButtonProps extends HTMLMotionProps<"button"> {
   variant?: ButtonVariant;
   size?: ButtonSize;
   icon?: React.ReactNode;
@@ -34,7 +36,7 @@ const buttonStyles = {
     secondary: "rgba(107, 114, 128, 0.25)",
     danger: "rgba(225, 29, 72, 0.25)",
     success: "rgba(5, 150, 105, 0.25)",
-  }
+  },
 };
 
 export default function Button({
@@ -42,7 +44,7 @@ export default function Button({
   size = "medium",
   children,
   icon,
-  onClick = () => {},
+  onClick,
   disabled = false,
   className,
   ...props
@@ -50,38 +52,38 @@ export default function Button({
   const [isHovered, setIsHovered] = useState(false);
 
   const handleClick = (e: MouseEvent<HTMLButtonElement>) => {
-    if (!disabled && onClick) {
-      const button = e.currentTarget;
-      const rect = button.getBoundingClientRect();
-      const x = e.clientX - rect.left;
-      const y = e.clientY - rect.top;
+    if (disabled) return;
 
-      const ripple = document.createElement("span");
-      ripple.style.position = "absolute";
-      ripple.style.backgroundColor = "rgba(255, 255, 255, 0.4)";
-      ripple.style.borderRadius = "50%";
-      ripple.style.width = "0px";
-      ripple.style.height = "0px";
-      ripple.style.top = `${y}px`;
-      ripple.style.left = `${x}px`;
-      ripple.style.transform = "translate(-50%, -50%)";
-      ripple.style.pointerEvents = "none";
+    const button = e.currentTarget;
+    const rect = button.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
 
-      button.appendChild(ripple);
+    const ripple = document.createElement("span");
+    ripple.style.position = "absolute";
+    ripple.style.backgroundColor = "rgba(255, 255, 255, 0.4)";
+    ripple.style.borderRadius = "50%";
+    ripple.style.width = "0px";
+    ripple.style.height = "0px";
+    ripple.style.top = `${y}px`;
+    ripple.style.left = `${x}px`;
+    ripple.style.transform = "translate(-50%, -50%)";
+    ripple.style.pointerEvents = "none";
 
-      setTimeout(() => {
-        ripple.style.width = `${button.offsetWidth * 2.5}px`;
-        ripple.style.height = `${button.offsetWidth * 2.5}px`;
-        ripple.style.opacity = "0";
-        ripple.style.transition = "all 0.9s cubic-bezier(0.25, 0.8, 0.25, 1)";
-      }, 0);
+    button.appendChild(ripple);
 
-      setTimeout(() => {
-        ripple.remove();
-      }, 600);
+    setTimeout(() => {
+      ripple.style.width = `${button.offsetWidth * 2.5}px`;
+      ripple.style.height = `${button.offsetWidth * 2.5}px`;
+      ripple.style.opacity = "0";
+      ripple.style.transition = "all 0.9s cubic-bezier(0.25, 0.8, 0.25, 1)";
+    }, 0);
 
-      onClick(e);
-    }
+    setTimeout(() => {
+      ripple.remove();
+    }, 600);
+
+    if (onClick) onClick(e); // safer check
   };
 
   return (
@@ -117,9 +119,7 @@ export default function Button({
     >
       <motion.div
         className="relative z-10 flex items-center justify-center gap-2"
-        animate={{
-          y: isHovered ? -2 : 0,
-        }}
+        animate={{ y: isHovered ? -2 : 0 }}
         transition={{ duration: 0.2 }}
       >
         {icon && (
