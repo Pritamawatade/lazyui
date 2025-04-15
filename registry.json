@@ -26,7 +26,103 @@
           "type": "registry:component"
         }
       ]
+    },
+    {
+      "name": "avatar",
+      "type": "registry:block",
+      "title": "Avatar",
+      "description": "Avatar component with animation",
+      "files": [
+        {
+          "path": "registry/new-york/avatar/avatar.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "alertbox",
+      "type": "registry:block",
+      "title": "AlertBox",
+      "description": "AlertBox component with animation",
+      "files": [
+        {
+          "path": "registry/new-york/alertbox/alertbox.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "messagecard",
+      "type": "registry:block",
+      "title": "MessageCard",
+      "description": "MessageCard component with animation",
+      "files": [
+        {
+          "path": "registry/new-york/messagecard/messagecard.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "dailog",
+      "type": "registry:block",
+      "title": "Dialog",
+      "description": "Dialog component with animation",
+      "files": [
+        {
+          "path": "registry/new-york/dailog/dailog.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "productcard",
+      "type": "registry:block",
+      "title": "ProductCard",
+      "description": "ProductCard component with animation",
+      "files": [
+        {
+          "path": "registry/new-york/productcard/productcard.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "avatardropdown",
+      "type": "registry:block",
+      "title": "AvatarDropdown",
+      "description": "AvatarDropdown component with animation",
+      "files": [
+        {
+          "path": "registry/new-york/avatardropdown/avatardropdown.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "groupavatar",
+      "type": "registry:block",
+      "title": "groupavatar",
+      "description": "groupavatar component with animation",
+      "files": [
+        {
+          "path": "registry/new-york/groupavatar/groupavatar.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "statusavatar",
+      "type": "registry:block",
+      "title": "statusavatar",
+      "description": "statusavatar component with animation",
+      "files": [
+        {
+          "path": "registry/new-york/statusavatar/statusavatar.tsx",
+          "type": "registry:component"
+        }
+      ]
     }
-   
+    
   ]
 }
