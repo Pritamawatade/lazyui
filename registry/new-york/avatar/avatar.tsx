@@ -1,7 +1,4 @@
-"use client"
-
 import React, { FC } from "react";
-
 type AvatarSize = "xs" | "sm" | "md" | "lg" | "xl";
 type AvatarVariant = "default" | "gradient" | "bordered" | "soft";
 type AvatarRounded = "none" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "full";

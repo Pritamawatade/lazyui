@@ -1,14 +1,16 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "statusavatar",
-  "type": "registry:block",
-  "title": "statusavatar",
-  "description": "statusavatar component with animation",
+  "type": "registry:component",
+  "title": "Status Avatar",
+  "author": "Team LazyUI",
+  "description": "Status Avatar component of LazyUI library.",
   "files": [
     {
       "path": "registry/new-york/statusavatar/statusavatar.tsx",
-      "content": "\"use client\"\r\n\r\nimport React, { ReactNode, HTMLAttributes } from \"react\";\r\n\r\ntype Status = \"online\" | \"busy\" | \"away\" | \"offline\";\r\ntype Position = \"top-right\" | \"top-left\" | \"bottom-right\" | \"bottom-left\";\r\n\r\ninterface StatusAvatarProps extends HTMLAttributes<HTMLDivElement> {\r\n  status?: Status;\r\n  position?: Position;\r\n  children: ReactNode;\r\n  className?: string;\r\n}\r\n\r\nconst StatusAvatar: React.FC<StatusAvatarProps> = ({\r\n  status = \"online\",\r\n  position = \"bottom-right\",\r\n  children,\r\n  className = \"\",\r\n  ...props\r\n}) => {\r\n  const statusColors: Record<Status, string> = {\r\n    online: \"bg-green-500\",\r\n    busy: \"bg-red-500\",\r\n    away: \"bg-amber-500\",\r\n    offline: \"bg-gray-400\",\r\n  };\r\n\r\n  const positions: Record<Position, string> = {\r\n    \"top-right\": \"top-0 right-0\",\r\n    \"top-left\": \"top-0 left-0\",\r\n    \"bottom-right\": \"bottom-0 right-0\",\r\n    \"bottom-left\": \"bottom-0 left-0\",\r\n  };\r\n\r\n  return (\r\n    <div className={`relative inline-block ${className}`} {...props}>\r\n      {children}\r\n      <span\r\n        className={`absolute w-4 h-4 rounded-full border-2 border-white ${statusColors[status]} ${positions[position]}`}\r\n      />\r\n    </div>\r\n  );\r\n};\r\n\r\nexport default StatusAvatar;\r\n",
-      "type": "registry:component"
+      "content": "import React, { ReactNode, HTMLAttributes } from \"react\";\n\ntype Status = \"online\" | \"busy\" | \"away\" | \"offline\";\ntype Position = \"top-right\" | \"top-left\" | \"bottom-right\" | \"bottom-left\";\n\ninterface StatusAvatarProps extends HTMLAttributes<HTMLDivElement> {\n  status?: Status;\n  position?: Position;\n  children: ReactNode;\n  className?: string;\n}\n\nconst StatusAvatar: React.FC<StatusAvatarProps> = ({\n  status = \"online\",\n  position = \"bottom-right\",\n  children,\n  className = \"\",\n  ...props\n}) => {\n  const statusColors: Record<Status, string> = {\n    online: \"bg-green-500\",\n    busy: \"bg-red-500\",\n    away: \"bg-amber-500\",\n    offline: \"bg-gray-400\",\n  };\n\n  const positions: Record<Position, string> = {\n    \"top-right\": \"top-0 right-0\",\n    \"top-left\": \"top-0 left-0\",\n    \"bottom-right\": \"bottom-0 right-0\",\n    \"bottom-left\": \"bottom-0 left-0\",\n  };\n\n  return (\n    <div className={`relative inline-block ${className}`} {...props}>\n      {children}\n      <span\n        className={`absolute w-4 h-4 rounded-full border-2 border-white ${statusColors[status]} ${positions[position]}`}\n      />\n    </div>\n  );\n};\n\nexport default StatusAvatar;\n",
+      "type": "registry:component",
+      "target": "components/ui/statusavatar.tsx"
     }
   ]
 }

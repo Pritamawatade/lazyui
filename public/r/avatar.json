@@ -1,14 +1,16 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "avatar",
-  "type": "registry:block",
+  "type": "registry:component",
   "title": "Avatar",
-  "description": "Avatar component with animation",
+  "author": "Team LazyUI",
+  "description": "Avatar component of LazyUI library.",
   "files": [
     {
       "path": "registry/new-york/avatar/avatar.tsx",
-      "content": "\"use client\"\r\n\r\nimport React, { FC } from \"react\";\r\n\r\ntype AvatarSize = \"xs\" | \"sm\" | \"md\" | \"lg\" | \"xl\";\r\ntype AvatarVariant = \"default\" | \"gradient\" | \"bordered\" | \"soft\";\r\ntype AvatarRounded = \"none\" | \"sm\" | \"md\" | \"lg\" | \"xl\" | \"2xl\" | \"3xl\" | \"full\";\r\n\r\ninterface AvatarProps extends React.HTMLAttributes<HTMLDivElement> {\r\n  size?: AvatarSize;\r\n  variant?: AvatarVariant;\r\n  imageUrl?: string;\r\n  initials?: string;\r\n  className?: string;\r\n  rounded?: AvatarRounded;\r\n}\r\n\r\nconst Avatar: FC<AvatarProps> = ({\r\n  size = \"md\",\r\n  variant = \"default\",\r\n  imageUrl,\r\n  initials,\r\n  className = \"\",\r\n  rounded = \"full\",\r\n  ...props\r\n}) => {\r\n  const sizes: Record<AvatarSize, string> = {\r\n    xs: \"w-8 h-8 text-xs\",\r\n    sm: \"w-10 h-10 text-sm\",\r\n    md: \"w-12 h-12\",\r\n    lg: \"w-16 h-16 text-lg\",\r\n    xl: \"w-20 h-20 text-xl\",\r\n  };\r\n\r\n  const variants: Record<AvatarVariant, string> = {\r\n    default: \"bg-gray-100 text-gray-600\",\r\n    gradient: \"bg-gradient-to-br from-pink-500 to-purple-600 text-white\",\r\n    bordered: \"bg-white text-gray-600 ring-4 ring-gray-100\",\r\n    soft: \"bg-blue-100 text-blue-600\",\r\n  };\r\n\r\n  return (\r\n    <div\r\n      className={`flex items-center justify-center font-medium ${\r\n        sizes[size]\r\n      } ${variants[variant]} rounded-${rounded} ${className}`}\r\n      {...props}\r\n    >\r\n      {imageUrl ? (\r\n        <img\r\n          src={imageUrl}\r\n          alt=\"Avatar\"\r\n          className={`w-full h-full object-cover rounded-${rounded}`}\r\n        />\r\n      ) : (\r\n        initials\r\n      )}\r\n    </div>\r\n  );\r\n};\r\n\r\nexport default Avatar;\r\n",
-      "type": "registry:component"
+      "content": "import React, { FC } from \"react\";\ntype AvatarSize = \"xs\" | \"sm\" | \"md\" | \"lg\" | \"xl\";\ntype AvatarVariant = \"default\" | \"gradient\" | \"bordered\" | \"soft\";\ntype AvatarRounded = \"none\" | \"sm\" | \"md\" | \"lg\" | \"xl\" | \"2xl\" | \"3xl\" | \"full\";\n\ninterface AvatarProps extends React.HTMLAttributes<HTMLDivElement> {\n  size?: AvatarSize;\n  variant?: AvatarVariant;\n  imageUrl?: string;\n  initials?: string;\n  className?: string;\n  rounded?: AvatarRounded;\n}\n\nconst Avatar: FC<AvatarProps> = ({\n  size = \"md\",\n  variant = \"default\",\n  imageUrl,\n  initials,\n  className = \"\",\n  rounded = \"full\",\n  ...props\n}) => {\n  const sizes: Record<AvatarSize, string> = {\n    xs: \"w-8 h-8 text-xs\",\n    sm: \"w-10 h-10 text-sm\",\n    md: \"w-12 h-12\",\n    lg: \"w-16 h-16 text-lg\",\n    xl: \"w-20 h-20 text-xl\",\n  };\n\n  const variants: Record<AvatarVariant, string> = {\n    default: \"bg-gray-100 text-gray-600\",\n    gradient: \"bg-gradient-to-br from-pink-500 to-purple-600 text-white\",\n    bordered: \"bg-white text-gray-600 ring-4 ring-gray-100\",\n    soft: \"bg-blue-100 text-blue-600\",\n  };\n\n  return (\n    <div\n      className={`flex items-center justify-center font-medium ${\n        sizes[size]\n      } ${variants[variant]} rounded-${rounded} ${className}`}\n      {...props}\n    >\n      {imageUrl ? (\n        <img\n          src={imageUrl}\n          alt=\"Avatar\"\n          className={`w-full h-full object-cover rounded-${rounded}`}\n        />\n      ) : (\n        initials\n      )}\n    </div>\n  );\n};\n\nexport default Avatar;\n",
+      "type": "registry:component",
+      "target": "components/ui/avatar.tsx"
     }
   ]
 }

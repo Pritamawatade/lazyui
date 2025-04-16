@@ -1,5 +1,3 @@
-"use client"
-
 import React, { ReactNode, HTMLAttributes } from "react";
 
 type Status = "online" | "busy" | "away" | "offline";

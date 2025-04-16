@@ -1,128 +1,155 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry.json",
   "name": "lazyui",
-  "homepage": "https://registry.lazyui.online/",
+  "homepage": "https://registry.lazyui.online",
   "items": [
     {
-      "name": "navbar",
-      "type": "registry:block",
-      "title": "Navbar",
-      "description": "Nabvar component with theme button",
+      "name": "alertbox",
+      "title": "Alert Box",
+      "description": "Alert Box component of LazyUI library.",
+      "type": "registry:component",
+      "author": "Team LazyUI",
+      "dependencies": ["framer-motion", "lucide-react"],
       "files": [
         {
-          "path": "registry/new-york/navbar/navbar.tsx",
-          "type": "registry:component"
-        }
-      ]
-    },
-    {
-      "name": "button",
-      "type": "registry:block",
-      "title": "Button",
-      "description": "Button component with animation",
-      "files": [
-        {
-          "path": "registry/new-york/button/button.tsx",
-          "type": "registry:component"
+          "path": "registry/new-york/alertbox/alertbox.tsx",
+          "type": "registry:component",
+          "target": "components/ui/alertbox.tsx"
         }
       ]
     },
     {
       "name": "avatar",
-      "type": "registry:block",
       "title": "Avatar",
-      "description": "Avatar component with animation",
+      "description": "Avatar component of LazyUI library.",
+      "type": "registry:component",
+      "author": "Team LazyUI",
       "files": [
         {
           "path": "registry/new-york/avatar/avatar.tsx",
-          "type": "registry:component"
-        }
-      ]
-    },
-    {
-      "name": "alertbox",
-      "type": "registry:block",
-      "title": "AlertBox",
-      "description": "AlertBox component with animation",
-      "files": [
-        {
-          "path": "registry/new-york/alertbox/alertbox.tsx",
-          "type": "registry:component"
-        }
-      ]
-    },
-    {
-      "name": "messagecard",
-      "type": "registry:block",
-      "title": "MessageCard",
-      "description": "MessageCard component with animation",
-      "files": [
-        {
-          "path": "registry/new-york/messagecard/messagecard.tsx",
-          "type": "registry:component"
-        }
-      ]
-    },
-    {
-      "name": "dialog",
-      "type": "registry:block",
-      "title": "Dialog",
-      "description": "Dialog component with animation",
-      "files": [
-        {
-          "path": "registry/new-york/dialog/dialog.tsx",
-          "type": "registry:component"
-        }
-      ]
-    },
-    {
-      "name": "productcard",
-      "type": "registry:block",
-      "title": "ProductCard",
-      "description": "ProductCard component with animation",
-      "files": [
-        {
-          "path": "registry/new-york/productcard/productcard.tsx",
-          "type": "registry:component"
+          "type": "registry:component",
+          "target": "components/ui/avatar.tsx"
         }
       ]
     },
     {
       "name": "avatardropdown",
-      "type": "registry:block",
-      "title": "AvatarDropdown",
-      "description": "AvatarDropdown component with animation",
+      "title": "Avatar Dropdown",
+      "description": "Avatar Dropdown component of LazyUI library.",
+      "type": "registry:component",
+      "author": "Team LazyUI",
+      "dependencies": ["framer-motion"],
       "files": [
         {
           "path": "registry/new-york/avatardropdown/avatardropdown.tsx",
-          "type": "registry:component"
+          "type": "registry:component",
+          "target": "components/ui/avatardropdown.tsx"
+        }
+      ]
+    },
+    {
+      "name": "button",
+      "title": "Button",
+      "description": "Button component of LazyUI library.",
+      "type": "registry:component",
+      "author": "Team LazyUI",
+      "dependencies": ["framer-motion"],
+      "files": [
+        {
+          "path": "registry/new-york/button/button.tsx",
+          "type": "registry:component",
+          "target": "components/ui/button.tsx"
+        }
+      ]
+    },
+    {
+      "name": "dialog",
+      "title": "Dialog",
+      "description": "Dialog component of LazyUI library.",
+      "type": "registry:component",
+      "author": "Team LazyUI",
+      "dependencies": ["framer-motion", "lucide-react"],
+      "files": [
+        {
+          "path": "registry/new-york/dialog/dialog.tsx",
+          "type": "registry:component",
+          "target": "components/ui/dialog.tsx"
         }
       ]
     },
     {
       "name": "groupavatar",
+      "title": "Group Avatar",
+      "description": "Group Avatar component of LazyUI library.",
       "type": "registry:block",
-      "title": "groupavatar",
-      "description": "groupavatar component with animation",
+      "author": "Team LazyUI",
+      "registryDependencies": ["https://registry.lazyui.online/r/avatar.json"],
       "files": [
         {
           "path": "registry/new-york/groupavatar/groupavatar.tsx",
-          "type": "registry:component"
+          "type": "registry:component",
+          "target": "components/ui/groupavatar.tsx"
+        }
+      ]
+    },
+    {
+      "name": "messagecard",
+      "title": "Message Card",
+      "description": "Message Card component of LazyUI library.",
+      "type": "registry:component",
+      "author": "Team LazyUI",
+      "dependencies": ["framer-motion", "lucide-react"],
+      "files": [
+        {
+          "path": "registry/new-york/messagecard/messagecard.tsx",
+          "type": "registry:component",
+          "target": "components/ui/messagecard.tsx"
+        }
+      ]
+    },
+    {
+      "name": "navbar",
+      "title": "Navbar",
+      "description": "Navbar component of LazyUI library.",
+      "type": "registry:component",
+      "author": "Team LazyUI",
+      "dependencies": ["framer-motion", "lucide-react"],
+      "files": [
+        {
+          "path": "registry/new-york/navbar/navbar.tsx",
+          "type": "registry:component",
+          "target": "components/ui/navbar.tsx"
+        }
+      ]
+    },
+    {
+      "name": "productcard",
+      "title": "Product Card",
+      "description": "Product Card component of LazyUI library.",
+      "type": "registry:component",
+      "author": "Team LazyUI",
+      "dependencies": ["framer-motion", "lucide-react"],
+      "files": [
+        {
+          "path": "registry/new-york/productcard/productcard.tsx",
+          "type": "registry:component",
+          "target": "components/ui/productcard.tsx"
         }
       ]
     },
     {
       "name": "statusavatar",
-      "type": "registry:block",
-      "title": "statusavatar",
-      "description": "statusavatar component with animation",
+      "title": "Status Avatar",
+      "description": "Status Avatar component of LazyUI library.",
+      "type": "registry:component",
+      "author": "Team LazyUI",
       "files": [
         {
           "path": "registry/new-york/statusavatar/statusavatar.tsx",
-          "type": "registry:component"
+          "type": "registry:component",
+          "target": "components/ui/statusavatar.tsx"
         }
       ]
     }
-    
   ]
 }

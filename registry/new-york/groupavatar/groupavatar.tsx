@@ -1,4 +1,4 @@
-import Avatar from "@/registry/new-york/avatar/avatar";
+import Avatar from "../avatar/avatar";
 
 interface User {
   imageUrl?: string;

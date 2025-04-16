@@ -12,6 +12,9 @@ interface ButtonProps extends HTMLMotionProps<"button"> {
   size?: ButtonSize;
   icon?: React.ReactNode;
   children: React.ReactNode;
+  onClick: React.FunctionComponent;
+  disabled: boolean;
+  className: string;
 }
 
 const buttonStyles = {
