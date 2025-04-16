@@ -1,4 +1,4 @@
-import Avatar from "../avatar/avatar";
+import Avatar from "./avatar";
 
 interface User {
   imageUrl?: string;
