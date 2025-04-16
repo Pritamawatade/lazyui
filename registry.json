@@ -64,13 +64,13 @@
       ]
     },
     {
-      "name": "dailog",
+      "name": "dialog",
       "type": "registry:block",
       "title": "Dialog",
       "description": "Dialog component with animation",
       "files": [
         {
-          "path": "registry/new-york/dailog/dailog.tsx",
+          "path": "registry/new-york/dialog/dialog.tsx",
           "type": "registry:component"
         }
       ]
