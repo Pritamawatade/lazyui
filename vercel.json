@@ -10,7 +10,7 @@
     },
     {
       "source": "/:path*",
-      "destination": "/www/:path*"
+      "destination": "/:path*"
     }
   ],
   "headers": [
