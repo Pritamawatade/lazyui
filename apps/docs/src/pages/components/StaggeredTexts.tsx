@@ -12,7 +12,7 @@ const steps: Step[] = [
   {
     title: "Import StaggeredTexts component",
     content: "",
-    code: `import { StaggeredTexts } from "@/components/lazyui/staggeredtexts";`,
+    code: `import { StaggeredTexts } from "@/components/ui/staggeredtexts";`,
   },
 ];
 
