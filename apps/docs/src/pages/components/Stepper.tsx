@@ -13,7 +13,7 @@ const setupSteps = [
   {
     title: "Import Stepper component",
     content: "",
-    code: `import { Stepper } from "@/components/lazyui/stepper";`,
+    code: `import { Stepper } from "@/components/ui/stepper";`,
   },
 ];
 
