@@ -1,0 +1,228 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "lazyui",
+  "homepage": "https://www.lazyui.online",
+  "items": [
+    {
+      "name": "alertbox",
+      "title": "Alert Box",
+      "description": "Alert Box component of LazyUI library.",
+      "type": "registry:component",
+      "author": "Team LazyUI",
+      "dependencies": ["framer-motion", "lucide-react"],
+      "files": [
+        {
+          "path": "registry/new-york/alertbox/alertbox.tsx",
+          "type": "registry:component",
+          "target": "components/ui/alertbox.tsx"
+        }
+      ]
+    },
+    {
+      "name": "animatednavbar",
+      "title": "Animated Navbar",
+      "description": "Animated Navbar component of LazyUI library.",
+      "type": "registry:block",
+      "author": "Team LazyUI",
+      "dependencies": ["framer-motion", "react-router-dom"],
+      "files": [
+        {
+          "path": "registry/new-york/animatednavbar/animatednavbar.tsx",
+          "type": "registry:component",
+          "target": "components/ui/animatednavbar.tsx"
+        },
+        {
+          "path": "registry/new-york/animatednavbar/cursor.tsx",
+          "type": "registry:component",
+          "target": "components/ui/cursor.tsx"
+        },
+        {
+          "path": "registry/new-york/animatednavbar/slidetabs.tsx",
+          "type": "registry:component",
+          "target": "components/ui/slidetabs.tsx"
+        },
+        {
+          "path": "registry/new-york/animatednavbar/tab.tsx",
+          "type": "registry:component",
+          "target": "components/ui/tab.tsx"
+        }
+      ]
+    },
+    {
+      "name": "avatar",
+      "title": "Avatar",
+      "description": "Avatar component of LazyUI library.",
+      "type": "registry:component",
+      "author": "Team LazyUI",
+      "files": [
+        {
+          "path": "registry/new-york/avatar/avatar.tsx",
+          "type": "registry:component",
+          "target": "components/ui/avatar.tsx"
+        }
+      ]
+    },
+    {
+      "name": "avatardropdown",
+      "title": "Avatar Dropdown",
+      "description": "Avatar Dropdown component of LazyUI library.",
+      "type": "registry:component",
+      "author": "Team LazyUI",
+      "dependencies": ["framer-motion"],
+      "files": [
+        {
+          "path": "registry/new-york/avatardropdown/avatardropdown.tsx",
+          "type": "registry:component",
+          "target": "components/ui/avatardropdown.tsx"
+        }
+      ]
+    },
+    {
+      "name": "button",
+      "title": "Button",
+      "description": "Button component of LazyUI library.",
+      "type": "registry:component",
+      "author": "Team LazyUI",
+      "dependencies": ["framer-motion"],
+      "files": [
+        {
+          "path": "registry/new-york/button/button.tsx",
+          "type": "registry:component",
+          "target": "components/ui/button.tsx"
+        }
+      ]
+    },
+    {
+      "name": "dialog",
+      "title": "Dialog",
+      "description": "Dialog component of LazyUI library.",
+      "type": "registry:component",
+      "author": "Team LazyUI",
+      "dependencies": ["framer-motion", "lucide-react"],
+      "files": [
+        {
+          "path": "registry/new-york/dialog/dialog.tsx",
+          "type": "registry:component",
+          "target": "components/ui/dialog.tsx"
+        }
+      ]
+    },
+    {
+      "name": "dropdownmenu",
+      "title": "Dropdown Menu",
+      "description": "Dropdown Menu component of LazyUI library.",
+      "type": "registry:component",
+      "author": "Team LazyUI",
+      "dependencies": ["react-icons"],
+      "files": [
+        {
+          "path": "registry/new-york/dropdownmenu/dropdownmenu.tsx",
+          "type": "registry:component",
+          "target": "components/ui/dropdownmenu.tsx"
+        }
+      ]
+    },
+    {
+      "name": "groupavatar",
+      "title": "Group Avatar",
+      "description": "Group Avatar component of LazyUI library.",
+      "type": "registry:block",
+      "author": "Team LazyUI",
+      "registryDependencies": ["https://www.lazyui.online/registry/avatar.json"],
+      "files": [
+        {
+          "path": "registry/new-york/groupavatar/groupavatar.tsx",
+          "type": "registry:component",
+          "target": "components/ui/groupavatar.tsx"
+        }
+      ]
+    },
+    {
+      "name": "productcard",
+      "title": "Product Card",
+      "description": "Product Card component of LazyUI library.",
+      "type": "registry:component",
+      "author": "Team LazyUI",
+      "dependencies": ["framer-motion", "lucide-react"],
+      "files": [
+        {
+          "path": "registry/new-york/productcard/productcard.tsx",
+          "type": "registry:component",
+          "target": "components/ui/productcard.tsx"
+        }
+      ]
+    },
+    {
+      "name": "revealcardsgrid",
+      "title": "Reveal Cards Grid",
+      "description": "Reveal Cards Grid component of LazyUI library.",
+      "type": "registry:component",
+      "author": "Team LazyUI",
+      "files": [
+        {
+          "path": "registry/new-york/revealcardsgrid/revealcardsgrid.tsx",
+          "type": "registry:component",
+          "target": "components/ui/revealcardsgrid.tsx"
+        }
+      ]
+    },
+    {
+      "name": "speeddial",
+      "title": "Speed Dial",
+      "description": "Speed Dial component of LazyUI library.",
+      "type": "registry:component",
+      "author": "Team LazyUI",
+      "dependencies": ["react-tooltip"],
+      "files": [
+        {
+          "path": "registry/new-york/speeddial/speeddial.tsx",
+          "type": "registry:component",
+          "target": "components/ui/speeddial.tsx"
+        }
+      ]
+    },
+    {
+      "name": "staggeredtexts",
+      "title": "Staggered Texts",
+      "description": "Staggered Texts component of LazyUI library.",
+      "type": "registry:component",
+      "author": "Team LazyUI",
+      "dependencies": ["framer-motion"],
+      "files": [
+        {
+          "path": "registry/new-york/staggeredtexts/staggeredtexts.tsx",
+          "type": "registry:component",
+          "target": "components/ui/staggeredtexts.tsx"
+        }
+      ]
+    },
+    {
+      "name": "statusavatar",
+      "title": "Status Avatar",
+      "description": "Status Avatar component of LazyUI library.",
+      "type": "registry:component",
+      "author": "Team LazyUI",
+      "files": [
+        {
+          "path": "registry/new-york/statusavatar/statusavatar.tsx",
+          "type": "registry:component",
+          "target": "components/ui/statusavatar.tsx"
+        }
+      ]
+    },
+    {
+      "name": "stepper",
+      "title": "Stepper",
+      "description": "Stepper component of LazyUI library.",
+      "type": "registry:component",
+      "author": "Team LazyUI",
+      "files": [
+        {
+          "path": "registry/new-york/stepper/stepper.tsx",
+          "type": "registry:component",
+          "target": "components/ui/stepper.tsx"
+        }
+      ]
+    }
+  ]
+}

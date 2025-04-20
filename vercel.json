@@ -1,0 +1,27 @@
+{
+  "rewrites": [
+    {
+      "source": "/docs/:path*",
+      "destination": "/docs/:path*"
+    },
+    {
+      "source": "/registry/:path*",
+      "destination": "/registry/:path*"
+    },
+    {
+      "source": "/:path*",
+      "destination": "/www/:path*"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/registry/allcomponents.json",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "https://www.lazyui.online, https://lazyui.online"
+        }
+      ]
+    }
+  ]
+}

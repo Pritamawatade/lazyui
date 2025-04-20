@@ -1,1 +1,1 @@
-## lazyui-shadcn
+# lazy-ui
