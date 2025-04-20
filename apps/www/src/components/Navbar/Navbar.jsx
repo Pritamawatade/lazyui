@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
-import { Link } from "react-router-dom";
 
 const navVariants = {
   hidden: { opacity: 0, y: -20 },
@@ -11,8 +10,6 @@ const navVariants = {
     transition: { duration: 0.5 },
   },
 };
-
-const MotionLink = motion(Link);
 
 const mobileMenuVariants = {
   closed: {
@@ -34,9 +31,9 @@ const mobileItemVariants = {
 
 function NavItem({ text, page }) {
   return (
-    <MotionLink to={`/${page}`} className="text-slate-300 hover:text-white font-medium transition-colors" whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.98 }}>
+    <motion.a href={`/${page}`} className="text-slate-300 hover:text-white font-medium transition-colors" whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.98 }}>
       {text}
-    </MotionLink>
+    </motion.a>
   );
 }
 
@@ -65,7 +62,7 @@ function Navbar() {
         <div className="container mx-auto px-6 flex items-center justify-between">
           <motion.div className="flex items-center gap-2" whileHover={{ scale: 1.05 }}>
             <span className="text-3xl font-bold bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-transparent bg-clip-text">
-              <Link to={"/"}> LazyUI</Link>
+              <motion.a to={"/"}> LazyUI</motion.a>
             </span>
           </motion.div>
 
@@ -82,7 +79,7 @@ function Navbar() {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.98 }}
           >
-            <Link to={"https://github.com/Pritamawatade/lazyui"}>GitHub</Link>
+            <motion.a to={"https://github.com/Pritamawatade/lazyui"}>GitHub</motion.a>
           </motion.button>
 
           {/* Mobile Menu Toggle */}
@@ -109,7 +106,7 @@ function Navbar() {
                   variants={mobileItemVariants}
                 >
                   <Github size={18} />
-                  <Link to={"https://github.com/Pritamawatade/lazyui"}>GitHub</Link>
+                  <motion.a href={"https://github.com/Pritamawatade/lazyui"}>GitHub</motion.a>
                 </motion.button>
               </div>
             </motion.div>
