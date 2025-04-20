@@ -3,7 +3,6 @@ import { ChevronRight, Code, Layout, Cpu, Zap, Package, Github } from "lucide-re
 import Navbar from "./components/Navbar/Navbar";
 import Feature from "./components/FeatureCard/Feature";
 import FooterLink from "./components/FooterLink/FooterLink";
-import { Link } from "react-router-dom";
 
 export default function App() {
   const heroVariants = {
@@ -210,14 +209,15 @@ export default function App() {
           </motion.p>
 
           <motion.div className="flex justify-center" variants={itemVariants}>
-            <motion.button
+            <motion.a
+              href="/docs/components/alertbox"
               className="flex items-center gap-2 bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 text-white px-8 py-4 rounded-lg text-lg font-medium transition-all shadow-xl hover:shadow-indigo-500/50"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.98 }}
             >
-              <Link to={"/docs/components/alertbox"}> Browse Components</Link>
+              Browse Components
               <ChevronRight size={20} />
-            </motion.button>
+            </motion.a>
           </motion.div>
         </motion.div>
       </motion.section>
