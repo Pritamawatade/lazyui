@@ -70,7 +70,6 @@ function Navbar() {
           <motion.div className="hidden md:flex items-center gap-8" variants={navVariants}>
             <NavItem text="Home" page="" />
             <NavItem text="Documentation" page="docs" />
-            <NavItem text="About" page="about" />
           </motion.div>
 
           {/* GitHub Button - Desktop */}
@@ -96,7 +95,6 @@ function Navbar() {
                 <motion.div className="flex flex-col gap-4" variants={mobileItemVariants}>
                   <NavItem text="Home" page="" />
                   <NavItem text="Documentation" page="docs" />
-                  <NavItem text="About" page="about" />
                 </motion.div>
 
                 <motion.button
