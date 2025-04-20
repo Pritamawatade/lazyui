@@ -82,12 +82,12 @@ export default function App() {
 
           <motion.div className="flex flex-col sm:flex-row gap-4 mt-4 justify-center items-center" variants={itemVariants}>
             <motion.a
-              href="#documentation"
+              href="/docs"
               className="flex items-center gap-2 bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 text-white px-8 py-4 rounded-lg text-lg font-medium transition-all shadow-xl hover:shadow-indigo-500/50"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.98 }}
             >
-              <Link to={"/docs"}>Documentation</Link>
+              Documentation
               <ChevronRight size={20} />
             </motion.a>
           </motion.div>
