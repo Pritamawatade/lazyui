@@ -62,7 +62,7 @@ function Navbar() {
         <div className="container mx-auto px-6 flex items-center justify-between">
           <motion.div className="flex items-center gap-2" whileHover={{ scale: 1.05 }}>
             <span className="text-3xl font-bold bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-transparent bg-clip-text">
-              <motion.a to={"/"}> LazyUI</motion.a>
+              <motion.a href={"/"}> LazyUI</motion.a>
             </span>
           </motion.div>
 
@@ -79,7 +79,7 @@ function Navbar() {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.98 }}
           >
-            <motion.a to={"https://github.com/Pritamawatade/lazyui"}>GitHub</motion.a>
+            <motion.a href={"https://github.com/Pritamawatade/lazyui"}>GitHub</motion.a>
           </motion.button>
 
           {/* Mobile Menu Toggle */}
@@ -105,7 +105,6 @@ function Navbar() {
                   whileTap={{ scale: 0.98 }}
                   variants={mobileItemVariants}
                 >
-                  <Github size={18} />
                   <motion.a href={"https://github.com/Pritamawatade/lazyui"}>GitHub</motion.a>
                 </motion.button>
               </div>
