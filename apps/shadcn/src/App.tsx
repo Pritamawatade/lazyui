@@ -11,7 +11,7 @@ function App() {
 
   // useEffect for fetching all components from the registry
   useEffect(() => {
-    fetch("https://lazy-ui-test.vercel.app/registry/allcomponents.json")
+    fetch("https://www.lazyui.online/registry/allcomponents.json")
       .then((response) => response.json())
       .then((data) => setAllComponents(data));
   }, []);
