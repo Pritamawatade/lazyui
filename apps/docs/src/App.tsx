@@ -13,7 +13,6 @@ function App() {
   }, [location.pathname]);
 
   const navItems = [
-    { to: "/", label: "Home" },
     { to: "/docs/", label: "Getting Started" },
   ];
 
@@ -54,6 +53,9 @@ function App() {
 
         <div className="h-[calc(100%-80px)] overflow-y-auto p-6 pt-4 flex flex-col gap-4">
           <nav className="flex flex-col gap-2">
+           <a href={"/"} className={clsx("rounded-md px-3 py-2 transition-colors hover:bg-white/10 text-white")}>
+              Home
+            </a>
             {navItems.map((item) => (
               <Link
                 key={item.to}
@@ -63,7 +65,6 @@ function App() {
                 {item.label}
               </Link>
             ))}
-
             <div className="mt-6 text-xs uppercase tracking-wide text-slate-300">Components</div>
 
             {componentItems.map((item) => (
