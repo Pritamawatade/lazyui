@@ -14,7 +14,7 @@ const steps: Step[] = [
   {
     title: "Import StatusAvatar component",
     content: "",
-    code: `import { StatusAvatar } from "@/components/lazyui/statusavatar";`,
+    code: `import { StatusAvatar } from "@/components/ui/statusavatar";`,
   },
 ];
 
