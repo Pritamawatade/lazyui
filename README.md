@@ -1,1 +1,1 @@
-# lazy-ui
+# lazyui
