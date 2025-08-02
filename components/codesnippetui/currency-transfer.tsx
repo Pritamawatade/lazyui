@@ -92,7 +92,7 @@ export default function CurrencyTransfer() {
 
   return (
     <Card
-      className="w-full max-w-sm mx-auto p-6 min-h-[300px] flex flex-col justify-center bg-zinc-50 dark:bg-zinc-950 border border-zinc-200 dark:border-zinc-800 backdrop-blur-xs relative overflow-hidden"
+      className="w-full max-w-sm mx-auto p-6 min-h-[300px] flex flex-col justify-center bg-white/10  shadow-inner dark:bg-zinc-950 border border-zinc-200 dark:border-zinc-800 backdrop-blur-xs hover:backdrop-blur-2xl  relative overflow-hidden "
     >
       {/* Background pulse effect */}
       <motion.div
@@ -198,7 +198,7 @@ export default function CurrencyTransfer() {
               }}
             >
               <motion.div
-                className="flex-1 bg-zinc-100/50 dark:bg-zinc-800/50 rounded-xl p-3 border border-zinc-200/50 dark:border-zinc-700/50 backdrop-blur-md"
+                className="flex-1 bg-white/10  shadow-inner dark:bg-zinc-800/50 rounded-xl p-3 border border-zinc-200/50 dark:border-zinc-700/50 backdrop-blur-md"
                 whileHover={{
                   scale: 1.02,
                   boxShadow: "0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1)",
