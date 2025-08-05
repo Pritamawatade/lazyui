@@ -65,7 +65,7 @@ export default function Card06({
             <div
                 className={cn(
                     "relative overflow-hidden",
-                    "bg-white dark:bg-zinc-900",
+                    "bg-white/30 dark:bg-zinc-900",
                     "rounded-3xl",
                     "transition-all duration-300",
                     "hover:shadow-xl hover:shadow-zinc-200/20 dark:hover:shadow-zinc-900/20",
@@ -106,7 +106,7 @@ export default function Card06({
                                 key={device.id}
                                 className={cn(
                                     "p-4 rounded-2xl",
-                                    "bg-zinc-50 dark:bg-zinc-800/50",
+                                    "bg-white/50 dark:bg-zinc-800/50",
                                     "border border-zinc-200 dark:border-zinc-700",
                                     "group",
                                     "transition-all duration-200",

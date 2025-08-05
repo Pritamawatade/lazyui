@@ -56,7 +56,7 @@ export default function Card03({
             <div
                 className={cn(
                     "relative overflow-hidden",
-                    "bg-white/50 dark:bg-zinc-900/50",
+                    "bg-white/20 dark:bg-zinc-900/50",
                     "backdrop-blur-xl",
                     "border border-zinc-200/50 dark:border-zinc-800/50",
                     "rounded-2xl",
@@ -122,7 +122,7 @@ export default function Card03({
                                     className={cn(
                                         "flex items-center justify-between",
                                         "p-3 rounded-xl",
-                                        "bg-zinc-50 dark:bg-zinc-800/50",
+                                        "bg-white/50 dark:bg-zinc-800/50",
                                         "transition-colors duration-200",
                                         "hover:bg-zinc-100 dark:hover:bg-zinc-800"
                                     )}

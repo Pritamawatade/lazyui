@@ -60,7 +60,7 @@ function CardDetails({
         <div
             className={cn(
                 "relative h-full rounded-3xl p-6",
-                "bg-white dark:bg-black/5",
+                "bg-white/30 dark:bg-black/5",
                 "border border-zinc-200 dark:border-zinc-800",
                 "hover:border-zinc-300 dark:hover:border-zinc-700",
                 "transition-all duration-300",

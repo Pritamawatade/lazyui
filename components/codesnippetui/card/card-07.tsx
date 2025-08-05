@@ -40,7 +40,7 @@ export default function Card07({
         <div className="w-full max-w-sm mx-auto">
             <div className={cn(
                 "overflow-hidden",
-                "bg-white dark:bg-zinc-900",
+                "bg-white/30 dark:bg-zinc-900",
                 "rounded-2xl",
                 "transition-all duration-200",
                 "border border-zinc-200 dark:border-zinc-800",

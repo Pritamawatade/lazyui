@@ -68,7 +68,7 @@ export default function Card04({
             <div
                 className={cn(
                     "relative overflow-hidden",
-                    "bg-white/50 dark:bg-zinc-900/50",
+                    "bg-white/20 dark:bg-zinc-900/50",
                     "backdrop-blur-xl",
                     "border border-zinc-200/50 dark:border-zinc-800/50",
                     "rounded-2xl",
@@ -185,14 +185,14 @@ export default function Card04({
                 </div>
 
                 <div className="p-4 border-t border-zinc-200/50 dark:border-zinc-800/50">
-                    <div className="flex items-center gap-3">
+                    <div className="flex items-center gap-3 ">
                         <div className="relative flex-1">
                             <input
                                 type="text"
                                 placeholder="Write a message..."
                                 className={cn(
-                                    "w-full px-4 py-2.5 pr-10",
-                                    "bg-zinc-50 dark:bg-zinc-800/50",
+                                    "w-full px-4 py-2.5 pr-10 ",
+                                    "bg-white/30 dark:bg-zinc-800/50",
                                     "border border-zinc-200 dark:border-zinc-700/50",
                                     "rounded-xl",
                                     "text-sm text-zinc-900 dark:text-zinc-100",

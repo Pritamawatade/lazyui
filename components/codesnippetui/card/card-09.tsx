@@ -56,7 +56,7 @@ export default function Card09({
             className={cn(
                 "w-full max-w-[400px]",
                 "rounded-2xl",
-                "bg-white dark:bg-zinc-900",
+                "bg-transparent ",
                 "border border-zinc-200 dark:border-zinc-800",
                 "shadow-xs"
             )}

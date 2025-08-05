@@ -43,7 +43,7 @@ export default function Card02({
             <div
                 className={cn(
                     "relative overflow-hidden",
-                    "bg-white/50 dark:bg-zinc-900/50",
+                    "bg-white/30 dark:bg-zinc-900/50",
                     "backdrop-blur-xl",
                     "border border-zinc-200/50 dark:border-zinc-800/50",
                     "rounded-2xl",
@@ -101,7 +101,7 @@ export default function Card02({
                                 className={cn(
                                     "flex items-center gap-3",
                                     "p-2 rounded-xl",
-                                    "bg-zinc-50 dark:bg-zinc-800/50",
+                                    "bg-white/30 dark:bg-zinc-800/50",
                                     "hover:bg-zinc-100 dark:hover:bg-zinc-800",
                                     "transition-colors duration-200"
                                 )}
@@ -138,10 +138,10 @@ export default function Card02({
                         size="sm"
                         className={cn(
                             "w-full",
-                            "bg-zinc-900 dark:bg-zinc-100",
+                            "bg-white/40 dark:bg-zinc-100",
                             "hover:bg-zinc-700 dark:hover:bg-zinc-300",
-                            "text-white dark:text-zinc-900",
-                            "shadow-xs"
+                            "text-black  dark:text-zinc-900",
+                            "shadow-xs flex items-center justify-center gap-2 "
                         )}
                     >
                         <ExternalLink className="w-4 h-4 mr-2" />
