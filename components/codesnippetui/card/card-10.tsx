@@ -6,8 +6,8 @@ import Image from "next/image";
 export default function Card_10() {
     return (
         <div className="w-full max-w-sm mx-auto">
-            <div className="bg-white/80 dark:bg-zinc-900/80 backdrop-blur-xl rounded-2xl shadow-xs border border-zinc-200/50 dark:border-zinc-800/50 overflow-hidden">
-                <div className="p-5 border-b border-zinc-200/50 dark:border-zinc-800/50 bg-white/50 dark:bg-zinc-900/50 backdrop-blur-xs">
+            <div className="bg-white/30 dark:bg-zinc-900/80 backdrop-blur-xl rounded-2xl shadow-xs border border-zinc-200/50 dark:border-zinc-800/50 overflow-hidden">
+                <div className="p-5 border-b border-zinc-200/50 dark:border-zinc-800/50 bg-white/5 dark:bg-zinc-900/50">
                     <div className="flex items-start justify-between mb-2">
                         <h2 className="text-lg font-semibold text-zinc-900 dark:text-zinc-100">
                             Dental Consultation
@@ -22,7 +22,7 @@ export default function Card_10() {
                 </div>
 
                 <div className="p-5 space-y-5">
-                    <div className="flex items-center gap-3 p-3 bg-zinc-100 dark:bg-zinc-800 rounded-xl">
+                    <div className="flex items-center gap-3 p-3 bg-white/30 dark:bg-zinc-800 rounded-xl">
                         <Image
                             src="https://ferf1mheo22r9ira.public.blob.vercel-storage.com/avatar-01-n0x8HFv8EUetf9z6ht0wScJKoTHqf8.png"
                             width={40}
@@ -43,7 +43,7 @@ export default function Card_10() {
                         {["position", "wait"].map((type) => (
                             <div
                                 key={type}
-                                className="bg-zinc-100 dark:bg-zinc-800 rounded-xl p-3"
+                                className="bg-white/30 dark:bg-zinc-800 rounded-xl p-3"
                             >
                                 {type === "position" ? (
                                     <>
@@ -79,7 +79,7 @@ export default function Card_10() {
                     </div>
 
                     <div className="space-y-2">
-                        <div className="flex items-center justify-between text-xs px-1">
+                        <div className="flex items-center justify-center text-xs px-1">
                             <div className="flex items-center gap-1.5">
                                 <Clock className="w-3.5 h-3.5 text-zinc-400" />
                                 <span className="text-zinc-500 font-medium">
@@ -103,7 +103,7 @@ export default function Card_10() {
 
                     <Button
                         variant="ghost"
-                        className="w-full text-red-600 dark:text-red-400 hover:bg-red-50 dark:hover:bg-red-950/50 h-9 text-sm"
+                        className="w-full flex items-center justify-center gap-4 text-red-600 dark:text-red-400 hover:bg-white/30 dark:hover:bg-red-950/50 h-9 text-sm"
                     >
                         <X className="w-4 h-4 mr-2" />
                         Cancel Reservation

@@ -74,7 +74,7 @@ export default function Card_01({
         <div
             className={cn(
                 "w-full max-w-2xl mx-auto",
-                "bg-white/50 dark:bg-zinc-900/50 backdrop-blur-xl",
+                "bg-white/30 dark:bg-zinc-900/50 backdrop-blur-xl",
                 "border border-zinc-200/50 dark:border-zinc-800/50",
                 "rounded-3xl shadow-lg",
                 "transition-all duration-300 ease-in-out",
@@ -131,7 +131,7 @@ export default function Card_01({
                     {content?.link && (
                         <div
                             className={cn(
-                                "mb-5 rounded-2xl",
+                                "mb-5 rounded-2xl bg-white/30",
                                 "border border-zinc-200/80 dark:border-zinc-700/80",
                                 "overflow-hidden group cursor-pointer",
                                 "transition-all duration-300",
@@ -143,14 +143,14 @@ export default function Card_01({
                             <div
                                 className={cn(
                                     "p-5",
-                                    "bg-linear-to-b from-zinc-50/50 to-white dark:from-zinc-800/30 dark:to-zinc-800/50",
+                                    "bg-white/5 dark:from-zinc-800/30 dark:to-zinc-800/50",
                                     "group-hover:from-zinc-100/50 group-hover:to-zinc-50/50",
                                     "dark:group-hover:from-zinc-800/50 dark:group-hover:to-zinc-800/70",
                                     "transition-colors duration-300"
                                 )}
                             >
                                 <div className="flex items-center gap-4">
-                                    <div className="p-2.5 bg-white/80 dark:bg-zinc-700/80 rounded-xl shadow-xs backdrop-blur-xs">
+                                    <div className="p-2.5 bg-white/30 dark:bg-zinc-700/80 rounded-xl">
                                         {content?.link.icon}
                                     </div>
                                     <div>
