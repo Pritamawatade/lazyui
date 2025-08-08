@@ -34,7 +34,7 @@ export default function ProfileForm({ defaultValues }: ProfileFormProps) {
                 <Button
                     variant="outline"
                     className="h-24 w-24 rounded-full border-2 border-dashed border-zinc-200/80 dark:border-zinc-800/80 
-                             hover:border-zinc-300 dark:hover:border-zinc-700 hover:bg-zinc-50 dark:hover:bg-zinc-900/50
+                             hover:border-zinc-300 dark:hover:border-zinc-700 hover:bg-white/30 dark:hover:bg-zinc-900/50
                              transition-colors shadow-sm"
                 >
                     <Sparkles className="h-6 w-6 text-zinc-600 dark:text-zinc-400" />
@@ -141,7 +141,7 @@ export default function ProfileForm({ defaultValues }: ProfileFormProps) {
             <div className="flex justify-end gap-4">
                 <Button
                     variant="outline"
-                    className="border-zinc-200/80 dark:border-zinc-800/80 hover:bg-zinc-50 dark:hover:bg-zinc-900/50"
+                    className="border-zinc-200/80 dark:border-zinc-800/80 hover:bg-white/30 dark:hover:bg-zinc-900/50"
                 >
                     Cancel
                 </Button>

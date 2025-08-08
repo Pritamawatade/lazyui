@@ -102,7 +102,7 @@ export default function Pricing_05() {
                                         "text-xs font-medium tracking-wide",
                                         tier.highlight
                                             ? "bg-zinc-900 text-white hover:bg-zinc-800 dark:bg-white dark:text-black dark:hover:bg-zinc-100"
-                                            : "bg-white text-zinc-900 border border-zinc-200 hover:bg-zinc-50 dark:bg-black dark:text-white dark:border-zinc-800 dark:hover:bg-zinc-900"
+                                            : "bg-white text-zinc-900 border border-zinc-200 hover:bg-white/30 dark:bg-black dark:text-white dark:border-zinc-800 dark:hover:bg-zinc-900"
                                     )}
                                 >
                                     Get started

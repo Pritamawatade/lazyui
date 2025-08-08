@@ -150,7 +150,7 @@ function CardDetails({
                                 onClick={() => handleGoalToggle(goal.id)}
                                 className={cn(
                                     "w-full flex items-center gap-3 p-3 rounded-xl",
-                                    "bg-zinc-50 dark:bg-zinc-900/50",
+                                    "bg-white/30 dark:bg-zinc-900/50",
                                     "border border-zinc-200/50 dark:border-zinc-800/50",
                                     "hover:border-zinc-300/50 dark:hover:border-zinc-700/50",
                                     "transition-all"

@@ -191,7 +191,7 @@ export default function Card06({
                                         "transition-all duration-200",
                                         scene.isActive
                                             ? "bg-blue-50 dark:bg-blue-900/20 text-blue-500"
-                                            : "bg-zinc-50 dark:bg-zinc-800 text-zinc-500 dark:text-zinc-400",
+                                            : "bg-white/30 dark:bg-zinc-800 text-zinc-500 dark:text-zinc-400",
                                         "hover:bg-blue-50 dark:hover:bg-blue-900/20",
                                         "hover:text-blue-500"
                                     )}

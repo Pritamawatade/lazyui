@@ -263,7 +263,7 @@ export default function PricingPage() {
     }
 
     return (
-        <div className="min-h-screen px-4 py-24 relative bg-zinc-50 dark:bg-white">
+        <div className="min-h-screen px-4 py-24 relative bg-white/30 dark:bg-white">
             {/* Dark mode backgrounds */}
             <div className="absolute inset-0 hidden dark:block">
                 <div className="absolute inset-0 bg-gradient-to-t from-black via-zinc-900/50 to-black" />

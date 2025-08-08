@@ -132,7 +132,7 @@ export default function Profile05({
                             className={cn(
                                 "p-6",
                                 "transition-colors duration-200",
-                                "hover:bg-zinc-50 dark:hover:bg-zinc-800/50"
+                                "hover:bg-white/30 dark:hover:bg-zinc-800/50"
                             )}
                         >
                             <div className="flex items-start gap-6">

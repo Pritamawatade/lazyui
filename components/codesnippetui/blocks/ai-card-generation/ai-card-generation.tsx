@@ -68,7 +68,7 @@ export default function AICardGeneration() {
 
                         {!isLoading && (
                             <div className="space-y-4">
-                                <div className="p-3 space-y-2 bg-zinc-50 dark:bg-zinc-800/50 rounded-xl">
+                                <div className="p-3 space-y-2 bg-white/30 dark:bg-zinc-800/50 rounded-xl">
                                     <div className="flex justify-between text-sm">
                                         <span className="text-zinc-500">
                                             Quality
@@ -91,7 +91,7 @@ export default function AICardGeneration() {
                                     <button
                                         type="button"
                                         onClick={handleBackToSettings}
-                                        className="w-full h-9 flex items-center justify-center gap-2 border border-zinc-200 dark:border-zinc-700 text-zinc-900 dark:text-zinc-100 text-sm font-medium rounded-xl hover:bg-zinc-50 dark:hover:bg-zinc-800 transition-colors"
+                                        className="w-full h-9 flex items-center justify-center gap-2 border border-zinc-200 dark:border-zinc-700 text-zinc-900 dark:text-zinc-100 text-sm font-medium rounded-xl hover:bg-white/30 dark:hover:bg-zinc-800 transition-colors"
                                     >
                                         Back to Settings
                                     </button>

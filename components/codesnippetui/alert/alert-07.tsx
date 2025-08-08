@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 export default function Alert07() {
     return (
         <div>
-            <div className="bg-white dark:bg-zinc-900/95 backdrop-blur-xs rounded-lg flex flex-col items-center justify-center gap-2 p-6 shadow-xs border border-gray-800/20 dark:border-gray-200/20">
+            <div className="bg-white/30 dark:bg-zinc-900/95 backdrop-blur-xs rounded-lg flex flex-col items-center justify-center gap-2 p-6 shadow-xs border border-gray-800/20 dark:border-gray-200/20">
                 <div className="text-gray-900 dark:text-gray-100 my-2 font-semibold">
                     FREE TRIAL EXPIRED
                 </div>

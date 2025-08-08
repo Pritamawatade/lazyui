@@ -103,7 +103,7 @@ export default function Profile04({
                     {menuItems.map((item) => (
                         <div
                             key={item.label}
-                            className="p-4 rounded-xl bg-zinc-50 dark:bg-zinc-800/50 
+                            className="p-4 rounded-xl bg-white/30 dark:bg-zinc-800/50 
                                 border border-zinc-200/50 dark:border-zinc-800/50"
                         >
                             <div className="flex items-center justify-between mb-2">

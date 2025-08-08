@@ -87,7 +87,7 @@ export function InteractivePreview() {
                                 "p-6 rounded-2xl cursor-pointer",
                                 activeFeature === index
                                     ? "bg-zinc-100 dark:bg-zinc-800/50"
-                                    : "hover:bg-zinc-50 dark:hover:bg-zinc-800/30"
+                                    : "hover:bg-white/30 dark:hover:bg-zinc-800/30"
                             )}
                             onClick={() => setActiveFeature(index)}
                             whileHover={{ x: 5 }}

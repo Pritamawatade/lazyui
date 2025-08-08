@@ -109,7 +109,7 @@ export default function Pricing_03() {
             <div className="border border-zinc-200 dark:border-zinc-800 rounded-xl overflow-hidden">
                 <div className="overflow-x-auto">
                     <div className="min-w-[640px] divide-y divide-zinc-200 dark:divide-zinc-800">
-                        <div className="flex items-center p-4 bg-zinc-50 dark:bg-zinc-900">
+                        <div className="flex items-center p-4 bg-white/30 dark:bg-zinc-900">
                             <div className="flex-1 text-sm font-medium">Features</div>
                             <div className="flex items-center gap-8 text-sm">
                                 {plans.map((plan) => (

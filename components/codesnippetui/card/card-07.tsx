@@ -74,7 +74,7 @@ export default function Card07({
                             className={cn(
                                 "p-5",
                                 "transition-colors duration-200",
-                                "hover:bg-zinc-50 dark:hover:bg-zinc-800/50"
+                                "hover:bg-white/30 dark:hover:bg-zinc-800/50"
                             )}
                         >
                             <div className="flex items-center justify-between mb-2">

@@ -48,7 +48,7 @@ export function CartDrawer({
                         {cart.map((item) => (
                             <div
                                 key={item.id}
-                                className="flex gap-4 p-3 bg-zinc-50 dark:bg-zinc-800/50 rounded-lg"
+                                className="flex gap-4 p-3 bg-white/30 dark:bg-zinc-800/50 rounded-lg"
                             >
                                 <img
                                     src={item.image}

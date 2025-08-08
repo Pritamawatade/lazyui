@@ -195,7 +195,7 @@ export default function Input_02({
                                         tagStyles.base,
                                         selectedIndex === index
                                             ? tagStyles.colors.blue
-                                            : "bg-zinc-50 text-zinc-700 border border-zinc-300 hover:border-zinc-400 dark:bg-zinc-800/50 dark:text-zinc-300 dark:border-zinc-700 dark:hover:border-zinc-600"
+                                            : "bg-white/30 text-zinc-700 border border-zinc-300 hover:border-zinc-400 dark:bg-zinc-800/50 dark:text-zinc-300 dark:border-zinc-700 dark:hover:border-zinc-600"
                                     )}
                                 >
                                     {suggestion.label}
@@ -235,7 +235,7 @@ export default function Input_02({
                                         selectedIndex ===
                                             filteredSuggestions.length
                                             ? tagStyles.colors.blue
-                                            : "bg-zinc-50 text-zinc-700 border border-zinc-300 hover:border-zinc-400 dark:bg-zinc-800/50 dark:text-zinc-300 dark:border-zinc-700 dark:hover:border-zinc-600"
+                                            : "bg-white/30 text-zinc-700 border border-zinc-300 hover:border-zinc-400 dark:bg-zinc-800/50 dark:text-zinc-300 dark:border-zinc-700 dark:hover:border-zinc-600"
                                     )}
                                 >
                                     <Plus className="w-3.5 h-3.5" />

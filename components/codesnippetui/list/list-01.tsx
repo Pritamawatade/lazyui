@@ -69,7 +69,7 @@ export default function List01({ items = ITEMS, className }: List01Props) {
         <div
             className={cn(
                 "w-full max-w-2xl mx-auto p-4",
-                "bg-white/50 dark:bg-zinc-900/50 backdrop-blur-xl",
+                "bg-transparent dark:bg-zinc-900/50 backdrop-blur-xl",
                 "rounded-3xl border border-white/20 dark:border-zinc-800/50",
                 "shadow-sm",
                 className
@@ -81,8 +81,8 @@ export default function List01({ items = ITEMS, className }: List01Props) {
                         key={item.id}
                         className={cn(
                             "group relative flex items-start gap-4 p-4",
-                            "bg-white/50 dark:bg-zinc-800/50",
-                            "hover:bg-white/80 dark:hover:bg-zinc-700/50",
+                            "bg-white/30 dark:bg-zinc-800/50",
+                            "hover:bg-white/30 dark:hover:bg-zinc-700/50",
                             "backdrop-blur-lg",
                             "transition-all duration-300 ease-out",
                             "rounded-2xl",

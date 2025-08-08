@@ -211,7 +211,7 @@ export default function CheckoutInteraction({
                                     className={cn(
                                         "flex items-center gap-3",
                                         "p-2 rounded-lg",
-                                        "bg-zinc-50 dark:bg-zinc-800/50",
+                                        "bg-white/30 dark:bg-zinc-800/50",
                                         "mb-3" // Added explicit margin bottom
                                     )}
                                 >

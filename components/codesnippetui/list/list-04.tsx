@@ -37,7 +37,7 @@ export default function List04() {
                 <div className="space-y-2">
                     <div
                         className="group flex items-center gap-4 p-3 rounded-xl 
-                        hover:bg-zinc-50 dark:hover:bg-zinc-800/50
+                        hover:bg-white/30 dark:hover:bg-zinc-800/50
                         transition-colors duration-200 cursor-pointer"
                     >
                         <div className="flex-none p-2 rounded-lg bg-blue-50 dark:bg-blue-500/10">
@@ -60,7 +60,7 @@ export default function List04() {
 
                     <div
                         className="group flex items-center gap-4 p-3 rounded-xl 
-                        hover:bg-zinc-50 dark:hover:bg-zinc-800/50
+                        hover:bg-white/30 dark:hover:bg-zinc-800/50
                         transition-colors duration-200 cursor-pointer"
                     >
                         <div className="flex-none p-2 rounded-lg bg-violet-50 dark:bg-violet-500/10">
@@ -83,7 +83,7 @@ export default function List04() {
 
                     <div
                         className="group flex items-center gap-4 p-3 rounded-xl 
-                        hover:bg-zinc-50 dark:hover:bg-zinc-800/50
+                        hover:bg-white/30 dark:hover:bg-zinc-800/50
                         transition-colors duration-200 cursor-pointer"
                     >
                         <div className="flex-none p-2 rounded-lg bg-emerald-50 dark:bg-emerald-500/10">
@@ -106,7 +106,7 @@ export default function List04() {
 
                     <div
                         className="group flex items-center gap-4 p-3 rounded-xl 
-                        hover:bg-zinc-50 dark:hover:bg-zinc-800/50
+                        hover:bg-white/30 dark:hover:bg-zinc-800/50
                         transition-colors duration-200 cursor-pointer"
                     >
                         <div className="flex-none p-2 rounded-lg bg-amber-50 dark:bg-amber-500/10">
@@ -129,7 +129,7 @@ export default function List04() {
 
                     <div
                         className="group flex items-center gap-4 p-3 rounded-xl 
-                        hover:bg-zinc-50 dark:hover:bg-zinc-800/50
+                        hover:bg-white/30 dark:hover:bg-zinc-800/50
                         transition-colors duration-200 cursor-pointer"
                     >
                         <div className="flex-none p-2 rounded-lg bg-rose-50 dark:bg-rose-500/10">

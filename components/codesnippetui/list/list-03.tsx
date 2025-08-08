@@ -142,7 +142,7 @@ export default function List03() {
                     type="button"
                     className="flex items-center gap-2 w-full px-3 py-2 text-sm text-zinc-500 dark:text-zinc-400 
                     hover:text-zinc-600 dark:hover:text-zinc-300 
-                    hover:bg-zinc-50 dark:hover:bg-zinc-800/50
+                    hover:bg-white/30 dark:hover:bg-zinc-800/50
                     rounded-lg transition-colors"
                 >
                     <Plus className="w-4 h-4" />

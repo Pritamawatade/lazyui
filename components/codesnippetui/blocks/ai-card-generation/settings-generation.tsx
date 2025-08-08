@@ -32,7 +32,7 @@ export const SettingsGeneration = ({
     onSettingsChange,
 }: SettingsProps) => {
     return (
-        <div className="space-y-4 p-4 rounded-xl bg-zinc-50 dark:bg-zinc-800/50">
+        <div className="space-y-4 p-4 rounded-xl bg-white/30 dark:bg-zinc-800/50">
             {/* Style Select */}
             <div className="flex items-center justify-between gap-4">
                 <div className="flex items-center gap-2">

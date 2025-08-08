@@ -108,7 +108,7 @@ export default function Input09() {
                     onClick={handleDecrement}
                     className="h-12 w-12 rounded-full border-zinc-200 dark:border-zinc-800 
                              bg-white dark:bg-zinc-900 
-                             hover:bg-zinc-50 dark:hover:bg-zinc-800/50 
+                             hover:bg-white/30 dark:hover:bg-zinc-800/50 
                              text-zinc-900 dark:text-zinc-100 cursor-pointer"
                 >
                     <span className="text-2xl font-medium">-</span>
@@ -130,7 +130,7 @@ export default function Input09() {
                     onClick={handleIncrement}
                     className="h-12 w-12 rounded-full border-zinc-200 dark:border-zinc-800 
                              bg-white dark:bg-zinc-900 
-                             hover:bg-zinc-50 dark:hover:bg-zinc-800/50 
+                             hover:bg-white/30 dark:hover:bg-zinc-800/50 
                              text-zinc-900 dark:text-zinc-100 cursor-pointer"
                 >
                     <span className="text-2xl font-medium">+</span>

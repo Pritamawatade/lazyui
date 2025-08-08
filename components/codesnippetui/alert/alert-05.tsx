@@ -14,7 +14,7 @@ export default function Alert05() {
             <div
                 className={cn(
                     "relative overflow-hidden",
-                    "bg-linear-to-br from-indigo-50 to-violet-50 dark:from-indigo-950/50 dark:to-violet-950/50",
+                    "bg-white/30 dark:from-indigo-950/50 dark:to-violet-950/50",
                     "border border-indigo-200 dark:border-indigo-800/50",
                     "shadow-lg",
                     "p-6 rounded-2xl"

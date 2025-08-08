@@ -193,10 +193,10 @@ export default function Pricing_06({
                                               "dark:active:bg-amber-400",
                                           ]
                                         : [
-                                              "bg-zinc-50 dark:bg-zinc-800",
+                                              "bg-white/30 dark:bg-zinc-800",
                                               "text-zinc-900 dark:text-white",
                                               "hover:bg-white dark:hover:bg-zinc-700",
-                                              "active:bg-zinc-50 dark:active:bg-zinc-800",
+                                              "active:bg-white/30 dark:active:bg-zinc-800",
                                           ]
                                 )}
                             >

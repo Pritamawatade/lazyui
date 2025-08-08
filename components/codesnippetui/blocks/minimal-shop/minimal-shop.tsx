@@ -39,7 +39,7 @@ export default function MinimalShop() {
     );
 
     return (
-        <div className="h-screen bg-zinc-50 dark:bg-zinc-950">
+        <div className="h-screen bg-white/30 dark:bg-zinc-950">
             <TopBar
                 cartItemCount={cart.length}
                 onCartClick={() => setIsCartOpen(true)}
