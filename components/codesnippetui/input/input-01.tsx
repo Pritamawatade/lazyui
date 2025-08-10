@@ -57,7 +57,7 @@ export default function Input_01({
                     className={cn(
                         "w-full px-3 py-2",
                         "rounded-lg",
-                        "bg-white dark:bg-zinc-900",
+                        "bg-white/30 dark:bg-zinc-900",
                         "border border-zinc-200 dark:border-zinc-800",
                         "text-sm text-zinc-900 dark:text-zinc-100",
                         "placeholder:text-zinc-400 dark:placeholder:text-zinc-600",

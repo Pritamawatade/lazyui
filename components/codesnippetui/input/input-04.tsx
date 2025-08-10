@@ -45,7 +45,7 @@ export default function Input_04({
                     className={cn(
                         "flex items-center rounded-lg border",
                         "border-zinc-200 dark:border-zinc-800",
-                        "bg-white dark:bg-black/5",
+                        "bg-white/30 dark:bg-black/5",
                         isFocused && "ring-2 ring-zinc-300 dark:ring-zinc-700"
                     )}
                 >
