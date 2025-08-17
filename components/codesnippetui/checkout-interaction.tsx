@@ -113,7 +113,7 @@ export default function CheckoutInteraction({
                             className={cn(
                                 "group",
                                 "p-4 rounded-xl",
-                                "bg-white dark:bg-zinc-900",
+                                "bg-white/30 dark:bg-zinc-900",
                                 "border border-zinc-200 dark:border-zinc-800",
                                 "hover:border-zinc-300 dark:hover:border-zinc-700",
                                 "transition-all duration-200"
@@ -173,7 +173,7 @@ export default function CheckoutInteraction({
                     className={cn(
                         "w-80 flex flex-col",
                         "p-4 rounded-xl",
-                        "bg-white dark:bg-zinc-900",
+                        "bg-white/30 dark:bg-zinc-900",
                         "border border-zinc-200 dark:border-zinc-800",
                         "sticky top-4",
                         "max-h-[32rem]" // Increased from 24rem to 32rem
@@ -280,7 +280,7 @@ export default function CheckoutInteraction({
                                 </motion.div>
                             ))}
                         </AnimatePresence>
-                    </motion.div>
+                    </motion.div>   
 
                     {/* Cart Summary */}
                     <motion.div
@@ -288,7 +288,7 @@ export default function CheckoutInteraction({
                         className={cn(
                             "pt-3 mt-3",
                             "border-t border-zinc-200 dark:border-zinc-800",
-                            "bg-white dark:bg-zinc-900"
+                            ""
                         )}
                     >
                         <div className="flex items-center justify-between mb-3">
@@ -317,9 +317,9 @@ export default function CheckoutInteraction({
                                 />
                             </motion.span>
                         </div>
-                        <Button size="sm" className="w-full gap-2">
+                        <Button size="sm" className="w-full gap-2 bg-white/30 dark:bg-zinc-900 flex items-center justify-center">
                             <CreditCard className="w-4 h-4" />
-                            Checkout
+                            <span className="text-sm font-medium text-zinc-900 dark:text-zinc-100">Checkout</span>
                         </Button>
                     </motion.div>
                 </motion.div>

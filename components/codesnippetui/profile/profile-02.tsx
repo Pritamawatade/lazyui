@@ -33,7 +33,7 @@ export default function Profile02({
 }: Partial<Profile02Props> = defaultProfile) {
     return (
         <div className="w-full max-w-md mx-auto">
-            <div className="p-6 rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-white/50 dark:bg-zinc-900/50 backdrop-blur-xs">
+            <div className="p-6 rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-white/30 dark:bg-zinc-900/50 backdrop-blur-xs">
                 <div className="flex items-start gap-5">
                     <Image
                         src={avatar}

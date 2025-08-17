@@ -6,12 +6,12 @@ export default function List05() {
         <div
             className={cn(
                 "w-full max-w-xl mx-auto",
-                "bg-white dark:bg-zinc-900",
+                "bg-white/30 dark:bg-zinc-900",
                 "border border-zinc-200 dark:border-zinc-800",
                 "rounded-3xl shadow-lg overflow-hidden"
             )}
         >
-            <div className="relative h-48 bg-linear-to-b from-rose-500 to-rose-600 p-6">
+            <div className="relative h-48 bg-white/30 dark:bg-zinc-900">
                 <div className="absolute inset-0 bg-black/20" />
                 <div className="relative flex items-end h-full">
                     <div className="flex items-center gap-6">

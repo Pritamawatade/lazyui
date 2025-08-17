@@ -75,7 +75,7 @@ export default function List02({
         <div
             className={cn(
                 "w-full max-w-2xl mx-auto",
-                "bg-white dark:bg-zinc-900/70",
+                "bg-white/30 dark:bg-zinc-900/70",
                 "border border-zinc-100 dark:border-zinc-800",
                 "rounded-3xl shadow-sm backdrop-blur-xl",
                 className
@@ -104,7 +104,7 @@ export default function List02({
                                 "group relative flex items-center gap-4",
                                 "p-3 -mx-3 rounded-2xl",
                                 "transition-all duration-300 ease-out",
-                                "hover:bg-zinc-100 dark:hover:bg-zinc-800/50",
+                                "hover:bg-white/30 dark:hover:bg-zinc-800/50",
                                 "hover:shadow-sm",
                                 "border border-transparent",
                                 "hover:border-zinc-300 dark:hover:border-zinc-700/50"

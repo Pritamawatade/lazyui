@@ -6,7 +6,7 @@ export default function List06() {
         <div
             className={cn(
                 "w-full max-w-xl mx-auto",
-                "bg-white dark:bg-zinc-900",
+                "bg-white/30 dark:bg-zinc-900",
                 "border border-zinc-200 dark:border-zinc-800",
                 "rounded-2xl shadow-xs overflow-hidden"
             )}
