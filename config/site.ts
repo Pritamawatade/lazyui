@@ -1,6 +1,6 @@
 export const siteConfig = {
-    name: "Codesnippetui",
-    url: "https://Codesnippetui.com",
+    name: "lqdui",
+    url: "https://lqdui.com",
     ogImage: "#",
     description:
         "Copy, Paste, Customize. A collection of modern, interactive, customizable UI components. Quick and easy to use.",

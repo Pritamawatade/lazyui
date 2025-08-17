@@ -1,5 +1,5 @@
 // import EventToast from "@/components/event-toast";
-import Btn15 from "@/components/codesnippetui/button/btn-15";
+import Btn15 from "@/components/lqdui/button/btn-15";
 import { ComponentShowcaseCard } from "@/components/landing/component-showcase-card";
 import { HeroSection } from "@/components/landing/hero";
 import { InteractivePreview } from "@/components/landing/interactive-preview";

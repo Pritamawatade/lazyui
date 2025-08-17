@@ -28,7 +28,7 @@ export function Header() {
             <div className="absolute inset-0 rounded-lg bg-gradient-to-r from-orange-500 via-amber-500 to-orange-600 opacity-40 group-hover:opacity-80 blur-sm transition-opacity duration-500" />
             <div className="relative z-10 flex items-center gap-2">
               <span className="text-white dark:text-zinc-900">
-                CodeSnippetUI Pro
+                lqdui Pro
               </span>
               <ArrowUpRight className="w-3.5 h-3.5 text-white/90 dark:text-zinc-900/90" />
             </div>
@@ -63,7 +63,7 @@ export function Header() {
                    <Flame className="w-6 h-6 text-green-500 dark:text-green-400" />
                    
                     <span className="hidden sm:block font-semibold">
-                      CodeSnippetUI
+                      lqdui
                     </span>
                   </Link>
                   <span className="text-zinc-300 dark:text-zinc-700">|</span>
@@ -82,7 +82,7 @@ export function Header() {
                                             Pricing
                                         </ViewTransitionsLink> */}
                     <Link
-                      href="https://codesnippetui.pro/templates?utm_source=codesnippetui.com&utm_medium=header"
+                      href="https://lqdui.pro/templates?utm_source=lqdui.com&utm_medium=header"
                       target="_blank"
                       className="text-sm text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100 transition-colors flex items-center gap-2"
                     >

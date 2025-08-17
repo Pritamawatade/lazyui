@@ -5,25 +5,30 @@ import { useEffect, useState } from "react";
 import { SunMoon } from "lucide-react";
 
 export function ThemeToggle() {
-    const { setTheme, theme } = useTheme();
+    const { setTheme, theme, resolvedTheme } = useTheme();
     const [mounted, setMounted] = useState(false);
 
     useEffect(() => {
         setMounted(true);
     }, []);
 
+    // Don't render anything until mounted to prevent hydration mismatch
     if (!mounted) {
-        return null;
+        return (
+            <div className="w-5 h-5">
+                {/* Placeholder to maintain layout */}
+            </div>
+        );
     }
 
     return (
         <div
             className="cursor-pointer"
             onClick={() => {
-                setTheme(theme === "dark" ? "light" : "dark");
+                setTheme(resolvedTheme === "dark" ? "light" : "dark");
             }}
         >
-            {theme === "light" ? (
+            {resolvedTheme === "light" ? (
                 <SunMoon className="h-5 w-5 text-black" />
             ) : (
                 <SunMoon

@@ -325,7 +325,7 @@ export default function PricingPage() {
                         </p>
                         {/* <p className="text-sm text-gray-500 dark:text-gray-400">
                             Join hundreds of developers building amazing projects
-                            with CodeSnippet UI
+                            with lqdui UI
                         </p> */}
                     </motion.div>
                 </div>

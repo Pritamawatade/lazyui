@@ -17,17 +17,17 @@ import {
   Code,
   Layers,
 } from "lucide-react";
-import { Btn14 } from "../codesnippetui/button/btn-14";
-import Btn03 from "../codesnippetui/button/btn-03";
-import Input09 from "../codesnippetui/input/input-09";
-import AIInput_04 from "../codesnippetui/ai-input/ai-input-04";
+import { Btn14 } from "../lqdui/button/btn-14";
+import Btn03 from "../lqdui/button/btn-03";
+import Input09 from "../lqdui/input/input-09";
+import AIInput_04 from "../lqdui/ai-input/ai-input-04";
 
-import Card08 from "../codesnippetui/card/card-08";
+import Card08 from "../lqdui/card/card-08";
 import { BrowseBlocksButton } from "../ui/browse-blocks";
 import { BrowseComponentsButton } from "../ui/browse-button";
 import Features from "./feature-block";
 
-import Card02 from "../codesnippetui/card/card-02";
+import Card02 from "../lqdui/card/card-02";
 
 interface Action {
   id: string;

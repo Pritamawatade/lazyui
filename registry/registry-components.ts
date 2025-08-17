@@ -8,7 +8,7 @@ export const component: Registry = [
         registryDependencies: ["textarea"],
         files: [
             {
-                path: "components/codesnippetui/ai-input/ai-input-01.tsx",
+                path: "components/lqdui/ai-input/ai-input-01.tsx",
                 type: "registry:component",
             },
             {
@@ -24,7 +24,7 @@ export const component: Registry = [
         registryDependencies: ["textarea"],
         files: [
             {
-                path: "components/codesnippetui/ai-input/ai-input-02.tsx",
+                path: "components/lqdui/ai-input/ai-input-02.tsx",
                 type: "registry:component",
             },
             {
@@ -44,7 +44,7 @@ export const component: Registry = [
         registryDependencies: ["textarea"],
         files: [
             {
-                path: "components/codesnippetui/ai-input/ai-input-03.tsx",
+                path: "components/lqdui/ai-input/ai-input-03.tsx",
                 type: "registry:component",
             },
             {
@@ -60,7 +60,7 @@ export const component: Registry = [
         registryDependencies: ["textarea"],
         files: [
             {
-                path: "components/codesnippetui/ai-input/ai-input-04.tsx",
+                path: "components/lqdui/ai-input/ai-input-04.tsx",
                 type: "registry:component",
             },
             {
@@ -76,7 +76,7 @@ export const component: Registry = [
         registryDependencies: ["textarea"],
         files: [
             {
-                path: "components/codesnippetui/ai-input/ai-input-05.tsx",
+                path: "components/lqdui/ai-input/ai-input-05.tsx",
                 type: "registry:component",
             },
             {
@@ -92,7 +92,7 @@ export const component: Registry = [
         registryDependencies: ["textarea"],
         files: [
             {
-                path: "components/codesnippetui/ai-input/ai-input-06.tsx",
+                path: "components/lqdui/ai-input/ai-input-06.tsx",
                 type: "registry:component",
             },
             {
@@ -108,7 +108,7 @@ export const component: Registry = [
         registryDependencies: [],
         files: [
             {
-                path: "components/codesnippetui/ai-input/ai-input-08.tsx",
+                path: "components/lqdui/ai-input/ai-input-08.tsx",
                 type: "registry:component",
             },
         ],
@@ -120,7 +120,7 @@ export const component: Registry = [
         registryDependencies: ["textarea"],
         files: [
             {
-                path: "components/codesnippetui/ai-input/ai-input-09.tsx",
+                path: "components/lqdui/ai-input/ai-input-09.tsx",
                 type: "registry:component",
             },
             {
@@ -140,7 +140,7 @@ export const component: Registry = [
         registryDependencies: ["textarea"],
         files: [
             {
-                path: "components/codesnippetui/ai-input/ai-input-10.tsx",
+                path: "components/lqdui/ai-input/ai-input-10.tsx",
                 type: "registry:component",
             },
             {
@@ -164,7 +164,7 @@ export const component: Registry = [
         registryDependencies: ["textarea"],
         files: [
             {
-                path: "components/codesnippetui/ai-input/ai-input-11.tsx",
+                path: "components/lqdui/ai-input/ai-input-11.tsx",
                 type: "registry:component",
             },
             {
@@ -184,7 +184,7 @@ export const component: Registry = [
         registryDependencies: ["textarea", "tooltip"],
         files: [
             {
-                path: "components/codesnippetui/ai-input/ai-input-12.tsx",
+                path: "components/lqdui/ai-input/ai-input-12.tsx",
                 type: "registry:component",
             },
             {
@@ -200,7 +200,7 @@ export const component: Registry = [
         registryDependencies: ["textarea"],
         files: [
             {
-                path: "components/codesnippetui/ai-input/ai-input-13.tsx",
+                path: "components/lqdui/ai-input/ai-input-13.tsx",
                 type: "registry:component",
             },
             {
@@ -216,7 +216,7 @@ export const component: Registry = [
         registryDependencies: ["textarea"],
         files: [
             {
-                path: "components/codesnippetui/ai-input/ai-input-14.tsx",
+                path: "components/lqdui/ai-input/ai-input-14.tsx",
                 type: "registry:component",
             },
             {
@@ -232,7 +232,7 @@ export const component: Registry = [
         registryDependencies: ["textarea"],
         files: [
             {
-                path: "components/codesnippetui/ai-input/ai-input-15.tsx",
+                path: "components/lqdui/ai-input/ai-input-15.tsx",
                 type: "registry:component",
             },
             {
@@ -248,7 +248,7 @@ export const component: Registry = [
         registryDependencies: [],
         files: [
             {
-                path: "components/codesnippetui/ai-input/ai-input-16.tsx",
+                path: "components/lqdui/ai-input/ai-input-16.tsx",
                 type: "registry:component",
             },
             {
@@ -264,7 +264,7 @@ export const component: Registry = [
         registryDependencies: ["textarea"],
         files: [
             {
-                path: "components/codesnippetui/ai-input/ai-input-17.tsx",
+                path: "components/lqdui/ai-input/ai-input-17.tsx",
                 type: "registry:component",
             },
             {
@@ -280,7 +280,7 @@ export const component: Registry = [
         registryDependencies: ["button"],
         files: [
             {
-                path: "components/codesnippetui/button/btn-01.tsx",
+                path: "components/lqdui/button/btn-01.tsx",
                 type: "registry:component",
             },
         ],
@@ -291,7 +291,7 @@ export const component: Registry = [
         registryDependencies: ["button"],
         files: [
             {
-                path: "components/codesnippetui/button/btn-02.tsx",
+                path: "components/lqdui/button/btn-02.tsx",
                 type: "registry:component",
             },
         ],
@@ -303,7 +303,7 @@ export const component: Registry = [
         registryDependencies: ["button"],
         files: [
             {
-                path: "components/codesnippetui/button/btn-03.tsx",
+                path: "components/lqdui/button/btn-03.tsx",
                 type: "registry:component",
             },
         ],
@@ -315,7 +315,7 @@ export const component: Registry = [
         registryDependencies: ["button"],
         files: [
             {
-                path: "components/codesnippetui/button/btn-04.tsx",
+                path: "components/lqdui/button/btn-04.tsx",
                 type: "registry:component",
             },
         ],
@@ -327,7 +327,7 @@ export const component: Registry = [
         registryDependencies: ["button"],
         files: [
             {
-                path: "components/codesnippetui/button/btn-05.tsx",
+                path: "components/lqdui/button/btn-05.tsx",
                 type: "registry:component",
             },
         ],
@@ -339,7 +339,7 @@ export const component: Registry = [
         registryDependencies: ["button"],
         files: [
             {
-                path: "components/codesnippetui/button/btn-06.tsx",
+                path: "components/lqdui/button/btn-06.tsx",
                 type: "registry:component",
             },
             {
@@ -355,7 +355,7 @@ export const component: Registry = [
         registryDependencies: ["button"],
         files: [
             {
-                path: "components/codesnippetui/button/btn-07.tsx",
+                path: "components/lqdui/button/btn-07.tsx",
                 type: "registry:component",
             },
         ],
@@ -367,7 +367,7 @@ export const component: Registry = [
         registryDependencies: ["button"],
         files: [
             {
-                path: "components/codesnippetui/button/btn-08.tsx",
+                path: "components/lqdui/button/btn-08.tsx",
                 type: "registry:component",
             },
         ],
@@ -379,7 +379,7 @@ export const component: Registry = [
         registryDependencies: ["button"],
         files: [
             {
-                path: "components/codesnippetui/button/btn-09.tsx",
+                path: "components/lqdui/button/btn-09.tsx",
                 type: "registry:component",
             },
         ],
@@ -391,7 +391,7 @@ export const component: Registry = [
         registryDependencies: ["button"],
         files: [
             {
-                path: "components/codesnippetui/button/btn-10.tsx",
+                path: "components/lqdui/button/btn-10.tsx",
                 type: "registry:component",
             },
         ],
@@ -403,7 +403,7 @@ export const component: Registry = [
         registryDependencies: ["button"],
         files: [
             {
-                path: "components/codesnippetui/button/btn-11.tsx",
+                path: "components/lqdui/button/btn-11.tsx",
                 type: "registry:component",
             },
         ],
@@ -415,7 +415,7 @@ export const component: Registry = [
         registryDependencies: ["button"],
         files: [
             {
-                path: "components/codesnippetui/button/btn-12.tsx",
+                path: "components/lqdui/button/btn-12.tsx",
                 type: "registry:component",
             },
         ],
@@ -427,7 +427,7 @@ export const component: Registry = [
         registryDependencies: ["button"],
         files: [
             {
-                path: "components/codesnippetui/button/btn-13.tsx",
+                path: "components/lqdui/button/btn-13.tsx",
                 type: "registry:component",
             },
         ],
@@ -439,7 +439,7 @@ export const component: Registry = [
         registryDependencies: ["button"],
         files: [
             {
-                path: "components/codesnippetui/button/btn-15.tsx",
+                path: "components/lqdui/button/btn-15.tsx",
                 type: "registry:component",
             },
         ],
@@ -450,7 +450,7 @@ export const component: Registry = [
         dependencies: [],
         files: [
             {
-                path: "components/codesnippetui/text/text-01.tsx",
+                path: "components/lqdui/text/text-01.tsx",
                 type: "registry:component",
             },
         ],
@@ -461,7 +461,7 @@ export const component: Registry = [
         dependencies: ["motion"],
         files: [
             {
-                path: "components/codesnippetui/text/text-02.tsx",
+                path: "components/lqdui/text/text-02.tsx",
                 type: "registry:component",
             },
         ],
@@ -472,7 +472,7 @@ export const component: Registry = [
         dependencies: ["motion"],
         files: [
             {
-                path: "components/codesnippetui/text/text-03.tsx",
+                path: "components/lqdui/text/text-03.tsx",
                 type: "registry:component",
             },
         ],
@@ -483,7 +483,7 @@ export const component: Registry = [
         dependencies: ["motion"],
         files: [
             {
-                path: "components/codesnippetui/text/text-04.tsx",
+                path: "components/lqdui/text/text-04.tsx",
                 type: "registry:component",
             },
         ],
@@ -494,7 +494,7 @@ export const component: Registry = [
         dependencies: ["motion"],
         files: [
             {
-                path: "components/codesnippetui/text/text-05.tsx",
+                path: "components/lqdui/text/text-05.tsx",
                 type: "registry:component",
             },
         ],
@@ -505,7 +505,7 @@ export const component: Registry = [
         dependencies: [],
         files: [
             {
-                path: "components/codesnippetui/text/text-06.tsx",
+                path: "components/lqdui/text/text-06.tsx",
                 type: "registry:component",
             },
         ],
@@ -517,7 +517,7 @@ export const component: Registry = [
         registryDependencies: [],
         files: [
             {
-                path: "components/codesnippetui/card/card-01.tsx",
+                path: "components/lqdui/card/card-01.tsx",
                 type: "registry:component",
             },
         ],
@@ -529,7 +529,7 @@ export const component: Registry = [
         registryDependencies: ["button"],
         files: [
             {
-                path: "components/codesnippetui/card/card-02.tsx",
+                path: "components/lqdui/card/card-02.tsx",
                 type: "registry:component",
             },
         ],
@@ -541,7 +541,7 @@ export const component: Registry = [
         registryDependencies: [],
         files: [
             {
-                path: "components/codesnippetui/card/card-03.tsx",
+                path: "components/lqdui/card/card-03.tsx",
                 type: "registry:component",
             },
         ],
@@ -553,7 +553,7 @@ export const component: Registry = [
         registryDependencies: [],
         files: [
             {
-                path: "components/codesnippetui/card/card-04.tsx",
+                path: "components/lqdui/card/card-04.tsx",
                 type: "registry:component",
             },
         ],
@@ -565,7 +565,7 @@ export const component: Registry = [
         registryDependencies: [],
         files: [
             {
-                path: "components/codesnippetui/card/card-05.tsx",
+                path: "components/lqdui/card/card-05.tsx",
                 type: "registry:component",
             },
         ],
@@ -577,7 +577,7 @@ export const component: Registry = [
         registryDependencies: [],
         files: [
             {
-                path: "components/codesnippetui/card/card-06.tsx",
+                path: "components/lqdui/card/card-06.tsx",
                 type: "registry:component",
             },
         ],
@@ -589,7 +589,7 @@ export const component: Registry = [
         registryDependencies: [],
         files: [
             {
-                path: "components/codesnippetui/card/card-07.tsx",
+                path: "components/lqdui/card/card-07.tsx",
                 type: "registry:component",
             },
         ],
@@ -601,7 +601,7 @@ export const component: Registry = [
         registryDependencies: [],
         files: [
             {
-                path: "components/codesnippetui/card/card-08.tsx",
+                path: "components/lqdui/card/card-08.tsx",
                 type: "registry:component",
             },
         ],
@@ -613,7 +613,7 @@ export const component: Registry = [
         registryDependencies: [],
         files: [
             {
-                path: "components/codesnippetui/card/card-09.tsx",
+                path: "components/lqdui/card/card-09.tsx",
                 type: "registry:component",
             },
         ],
@@ -625,7 +625,7 @@ export const component: Registry = [
         registryDependencies: ["button", "progress"],
         files: [
             {
-                path: "components/codesnippetui/card/card-10.tsx",
+                path: "components/lqdui/card/card-10.tsx",
                 type: "registry:component",
             },
         ],
@@ -637,7 +637,7 @@ export const component: Registry = [
         registryDependencies: ["button", "badge"],
         files: [
             {
-                path: "components/codesnippetui/pricing/pricing-01.tsx",
+                path: "components/lqdui/pricing/pricing-01.tsx",
                 type: "registry:component",
             },
         ],
@@ -649,7 +649,7 @@ export const component: Registry = [
         registryDependencies: ["button"],
         files: [
             {
-                path: "components/codesnippetui/pricing/pricing-02.tsx",
+                path: "components/lqdui/pricing/pricing-02.tsx",
                 type: "registry:component",
             },
         ],
@@ -661,7 +661,7 @@ export const component: Registry = [
         registryDependencies: ["button"],
         files: [
             {
-                path: "components/codesnippetui/pricing/pricing-03.tsx",
+                path: "components/lqdui/pricing/pricing-03.tsx",
                 type: "registry:component",
             },
         ],
@@ -673,7 +673,7 @@ export const component: Registry = [
         registryDependencies: ["button"],
         files: [
             {
-                path: "components/codesnippetui/pricing/pricing-04.tsx",
+                path: "components/lqdui/pricing/pricing-04.tsx",
                 type: "registry:component",
             },
         ],
@@ -685,7 +685,7 @@ export const component: Registry = [
         registryDependencies: ["button"],
         files: [
             {
-                path: "components/codesnippetui/pricing/pricing-05.tsx",
+                path: "components/lqdui/pricing/pricing-05.tsx",
                 type: "registry:component",
             },
         ],
@@ -697,7 +697,7 @@ export const component: Registry = [
         registryDependencies: ["button"],
         files: [
             {
-                path: "components/codesnippetui/pricing/pricing-06.tsx",
+                path: "components/lqdui/pricing/pricing-06.tsx",
                 type: "registry:component",
             },
         ],
@@ -709,7 +709,7 @@ export const component: Registry = [
         registryDependencies: [],
         files: [
             {
-                path: "components/codesnippetui/alert/alert-01.tsx",
+                path: "components/lqdui/alert/alert-01.tsx",
                 type: "registry:component",
             },
         ],
@@ -721,7 +721,7 @@ export const component: Registry = [
         registryDependencies: ["alert"],
         files: [
             {
-                path: "components/codesnippetui/alert/alert-02.tsx",
+                path: "components/lqdui/alert/alert-02.tsx",
                 type: "registry:component",
             },
         ],
@@ -733,7 +733,7 @@ export const component: Registry = [
         registryDependencies: [],
         files: [
             {
-                path: "components/codesnippetui/alert/alert-03.tsx",
+                path: "components/lqdui/alert/alert-03.tsx",
                 type: "registry:component",
             },
         ],
@@ -745,7 +745,7 @@ export const component: Registry = [
         registryDependencies: [],
         files: [
             {
-                path: "components/codesnippetui/alert/alert-04.tsx",
+                path: "components/lqdui/alert/alert-04.tsx",
                 type: "registry:component",
             },
         ],
@@ -757,7 +757,7 @@ export const component: Registry = [
         registryDependencies: [],
         files: [
             {
-                path: "components/codesnippetui/alert/alert-05.tsx",
+                path: "components/lqdui/alert/alert-05.tsx",
                 type: "registry:component",
             },
         ],
@@ -769,7 +769,7 @@ export const component: Registry = [
         registryDependencies: ["alert"],
         files: [
             {
-                path: "components/codesnippetui/alert/alert-06.tsx",
+                path: "components/lqdui/alert/alert-06.tsx",
                 type: "registry:component",
             },
         ],
@@ -781,7 +781,7 @@ export const component: Registry = [
         registryDependencies: ["button"],
         files: [
             {
-                path: "components/codesnippetui/alert/alert-07.tsx",
+                path: "components/lqdui/alert/alert-07.tsx",
                 type: "registry:component",
             },
         ],
@@ -792,7 +792,7 @@ export const component: Registry = [
         dependencies: ["lucide-react"],
         files: [
             {
-                path: "components/codesnippetui/input/input-01.tsx",
+                path: "components/lqdui/input/input-01.tsx",
                 type: "registry:component",
             },
         ],
@@ -803,7 +803,7 @@ export const component: Registry = [
         dependencies: ["lucide-react"],
         files: [
             {
-                path: "components/codesnippetui/input/input-02.tsx",
+                path: "components/lqdui/input/input-02.tsx",
                 type: "registry:component",
             },
             {
@@ -822,7 +822,7 @@ export const component: Registry = [
         dependencies: ["lucide-react"],
         files: [
             {
-                path: "components/codesnippetui/input/input-03.tsx",
+                path: "components/lqdui/input/input-03.tsx",
                 type: "registry:component",
             },
             {
@@ -837,7 +837,7 @@ export const component: Registry = [
         dependencies: ["lucide-react"],
         files: [
             {
-                path: "components/codesnippetui/input/input-04.tsx",
+                path: "components/lqdui/input/input-04.tsx",
                 type: "registry:component",
             },
         ],
@@ -848,7 +848,7 @@ export const component: Registry = [
         dependencies: ["lucide-react"],
         files: [
             {
-                path: "components/codesnippetui/input/input-05.tsx",
+                path: "components/lqdui/input/input-05.tsx",
                 type: "registry:component",
             },
         ],
@@ -859,7 +859,7 @@ export const component: Registry = [
         dependencies: ["lucide-react"],
         files: [
             {
-                path: "components/codesnippetui/input/input-06.tsx",
+                path: "components/lqdui/input/input-06.tsx",
                 type: "registry:component",
             },
         ],
@@ -870,7 +870,7 @@ export const component: Registry = [
         dependencies: ["lucide-react"],
         files: [
             {
-                path: "components/codesnippetui/input/input-08.tsx",
+                path: "components/lqdui/input/input-08.tsx",
                 type: "registry:component",
             },
             {
@@ -886,7 +886,7 @@ export const component: Registry = [
         registryDependencies: ["popover"],
         files: [
             {
-                path: "components/codesnippetui/input/input-09.tsx",
+                path: "components/lqdui/input/input-09.tsx",
                 type: "registry:component",
             },
         ],
@@ -897,7 +897,7 @@ export const component: Registry = [
         dependencies: ["lucide-react"],
         files: [
             {
-                path: "components/codesnippetui/input/input-10.tsx",
+                path: "components/lqdui/input/input-10.tsx",
                 type: "registry:component",
             },
         ],
@@ -909,7 +909,7 @@ export const component: Registry = [
         dependencies: [],
         files: [
             {
-                path: "components/codesnippetui/faq/faq-01.tsx",
+                path: "components/lqdui/faq/faq-01.tsx",
                 type: "registry:component",
             },
         ],
@@ -921,7 +921,7 @@ export const component: Registry = [
         dependencies: ["motion", "lucide-react"],
         files: [
             {
-                path: "components/codesnippetui/faq/faq-02.tsx",
+                path: "components/lqdui/faq/faq-02.tsx",
                 type: "registry:component",
             },
         ],
@@ -933,7 +933,7 @@ export const component: Registry = [
         dependencies: ["lucide-react"],
         files: [
             {
-                path: "components/codesnippetui/faq/faq-03.tsx",
+                path: "components/lqdui/faq/faq-03.tsx",
                 type: "registry:component",
             },
         ],
@@ -945,7 +945,7 @@ export const component: Registry = [
         dependencies: ["lucide-react"],
         files: [
             {
-                path: "components/codesnippetui/faq/faq-04.tsx",
+                path: "components/lqdui/faq/faq-04.tsx",
                 type: "registry:component",
             },
         ],
@@ -957,7 +957,7 @@ export const component: Registry = [
         dependencies: ["lucide-react"],
         files: [
             {
-                path: "components/codesnippetui/list/list-01.tsx",
+                path: "components/lqdui/list/list-01.tsx",
                 type: "registry:component",
             },
         ],
@@ -969,7 +969,7 @@ export const component: Registry = [
         dependencies: ["lucide-react"],
         files: [
             {
-                path: "components/codesnippetui/list/list-02.tsx",
+                path: "components/lqdui/list/list-02.tsx",
                 type: "registry:component",
             },
         ],
@@ -981,7 +981,7 @@ export const component: Registry = [
         dependencies: ["lucide-react"],
         files: [
             {
-                path: "components/codesnippetui/list/list-03.tsx",
+                path: "components/lqdui/list/list-03.tsx",
                 type: "registry:component",
             },
         ],
@@ -993,7 +993,7 @@ export const component: Registry = [
         dependencies: ["lucide-react"],
         files: [
             {
-                path: "components/codesnippetui/list/list-04.tsx",
+                path: "components/lqdui/list/list-04.tsx",
                 type: "registry:component",
             },
         ],
@@ -1005,7 +1005,7 @@ export const component: Registry = [
         dependencies: ["lucide-react"],
         files: [
             {
-                path: "components/codesnippetui/list/list-05.tsx",
+                path: "components/lqdui/list/list-05.tsx",
                 type: "registry:component",
             },
         ],
@@ -1017,7 +1017,7 @@ export const component: Registry = [
         dependencies: ["lucide-react"],
         files: [
             {
-                path: "components/codesnippetui/list/list-06.tsx",
+                path: "components/lqdui/list/list-06.tsx",
                 type: "registry:component",
             },
         ],
@@ -1028,7 +1028,7 @@ export const component: Registry = [
         dependencies: ["lucide-react"],
         files: [
             {
-                path: "components/codesnippetui/profile/profile-01.tsx",
+                path: "components/lqdui/profile/profile-01.tsx",
                 type: "registry:component",
             },
         ],
@@ -1040,7 +1040,7 @@ export const component: Registry = [
         registryDependencies: ["button"],
         files: [
             {
-                path: "components/codesnippetui/profile/profile-02.tsx",
+                path: "components/lqdui/profile/profile-02.tsx",
                 type: "registry:component",
             },
         ],
@@ -1058,7 +1058,7 @@ export const component: Registry = [
         ],
         files: [
             {
-                path: "components/codesnippetui/profile/profile-03.tsx",
+                path: "components/lqdui/profile/profile-03.tsx",
                 type: "registry:component",
             },
         ],
@@ -1070,7 +1070,7 @@ export const component: Registry = [
         registryDependencies: ["button", "badge", "progress"],
         files: [
             {
-                path: "components/codesnippetui/profile/profile-04.tsx",
+                path: "components/lqdui/profile/profile-04.tsx",
                 type: "registry:component",
             },
         ],
@@ -1082,7 +1082,7 @@ export const component: Registry = [
         registryDependencies: ["button", "badge"],
         files: [
             {
-                path: "components/codesnippetui/profile/profile-05.tsx",
+                path: "components/lqdui/profile/profile-05.tsx",
                 type: "registry:component",
             },
         ],
@@ -1094,7 +1094,7 @@ export const component: Registry = [
         registryDependencies: ["button"],
         files: [
             {
-                path: "components/codesnippetui/checkout-interaction.tsx",
+                path: "components/lqdui/checkout-interaction.tsx",
                 type: "registry:component",
             },
         ],
@@ -1106,7 +1106,7 @@ export const component: Registry = [
         registryDependencies: ["button"],
         files: [
             {
-                path: "components/codesnippetui/particle-button.tsx",
+                path: "components/lqdui/particle-button.tsx",
                 type: "registry:component",
             },
         ],
@@ -1118,7 +1118,7 @@ export const component: Registry = [
         registryDependencies: ["card"],
         files: [
             {
-                path: "components/codesnippetui/currency-transfer.tsx",
+                path: "components/lqdui/currency-transfer.tsx",
                 type: "registry:component",
             },
         ],
@@ -1130,7 +1130,7 @@ export const component: Registry = [
         registryDependencies: [],
         files: [
             {
-                path: "components/codesnippetui/hand-written-title.tsx",
+                path: "components/lqdui/hand-written-title.tsx",
                 type: "registry:component",
             },
         ],
@@ -1142,7 +1142,7 @@ export const component: Registry = [
         registryDependencies: [],
         files: [
             {
-                path: "components/codesnippetui/tweet-card.tsx",
+                path: "components/lqdui/tweet-card.tsx",
                 type: "registry:component",
             },
         ],
@@ -1154,7 +1154,7 @@ export const component: Registry = [
         registryDependencies: [],
         files: [
             {
-                path: "components/codesnippetui/hero-geometric.tsx",
+                path: "components/lqdui/hero-geometric.tsx",
                 type: "registry:component",
             },
         ],
@@ -1166,7 +1166,7 @@ export const component: Registry = [
         registryDependencies: ["input"],
         files: [
             {
-                path: "components/codesnippetui/action-search-bar.tsx",
+                path: "components/lqdui/action-search-bar.tsx",
                 type: "registry:component",
             },
             {
@@ -1182,7 +1182,7 @@ export const component: Registry = [
         registryDependencies: [],
         files: [
             {
-                path: "components/codesnippetui/bento-grid.tsx",
+                path: "components/lqdui/bento-grid.tsx",
                 type: "registry:component",
             },
         ],
@@ -1194,7 +1194,7 @@ export const component: Registry = [
         registryDependencies: [],
         files: [
             {
-                path: "components/codesnippetui/particles-background.tsx",
+                path: "components/lqdui/particles-background.tsx",
                 type: "registry:component",
             },
         ],
@@ -1206,7 +1206,7 @@ export const component: Registry = [
         registryDependencies: [],
         files: [
             {
-                path: "components/codesnippetui/background-circles.tsx",
+                path: "components/lqdui/background-circles.tsx",
                 type: "registry:component",
             },
         ],
@@ -1218,7 +1218,7 @@ export const component: Registry = [
         registryDependencies: [],
         files: [
             {
-                path: "components/codesnippetui/background-paths.tsx",
+                path: "components/lqdui/background-paths.tsx",
                 type: "registry:component",
             },
         ],
@@ -1230,7 +1230,7 @@ export const component: Registry = [
         registryDependencies: [],
         files: [
             {
-                path: "components/codesnippetui/vercel-v0-chat.tsx",
+                path: "components/lqdui/vercel-v0-chat.tsx",
                 type: "registry:component",
             },
             {
@@ -1246,7 +1246,7 @@ export const component: Registry = [
         registryDependencies: [],
         files: [
             {
-                path: "components/codesnippetui/toolbar.tsx",
+                path: "components/lqdui/toolbar.tsx",
                 type: "registry:component",
             },
         ],
@@ -1258,7 +1258,7 @@ export const component: Registry = [
         registryDependencies: [],
         files: [
             {
-                path: "components/codesnippetui/beams-background.tsx",
+                path: "components/lqdui/beams-background.tsx",
                 type: "registry:component",
             },
         ],
@@ -1270,7 +1270,7 @@ export const component: Registry = [
         registryDependencies: [],
         files: [
             {
-                path: "components/codesnippetui/matrix-text.tsx",
+                path: "components/lqdui/matrix-text.tsx",
                 type: "registry:component",
             },
         ],
@@ -1282,7 +1282,7 @@ export const component: Registry = [
         registryDependencies: [],
         files: [
             {
-                path: "components/codesnippetui/avatar-picker.tsx",
+                path: "components/lqdui/avatar-picker.tsx",
                 type: "registry:component",
             },
         ],
