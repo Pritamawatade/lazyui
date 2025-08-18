@@ -63,7 +63,7 @@ export default function Text_05({
                             "hover:text-purple-500 dark:hover:text-purple-400",
                             className
                         )}
-                        variants={letterAnimation}
+                        variants={letterAnimation as any}
                         initial="initial"
                         animate="animate"
                         transition={{

@@ -45,7 +45,7 @@ export default function HandWrittenTitle({
                         stroke="currentColor"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        variants={draw}
+                        // variants={draw}
                         className="text-black dark:text-white opacity-90"
                     />
                 </motion.svg>

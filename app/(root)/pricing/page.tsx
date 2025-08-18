@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import {
     Rocket,
     Code,
@@ -771,10 +771,10 @@ const draw = {
         transition: {
             pathLength: {
                 delay: i * 0.2,
-                type: "spring",
+                type: "spring" as const,
                 duration: 1.5,
                 bounce: 0.2,
-                ease: "easeInOut",
+                ease: "easeInOut" as const,
             },
             opacity: { delay: i * 0.2, duration: 0.2 },
         },

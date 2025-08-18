@@ -1,4 +1,3 @@
-import { motion } from "motion/react";
 import { type Product } from "./data";
 
 interface ProductGridProps {
@@ -10,13 +9,10 @@ export function ProductGrid({ products, onProductSelect }: ProductGridProps) {
     return (
         <div className="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-6 gap-2">
             {products.map((product) => (
-                <motion.div
+                <div
                     key={product.id}
-                    layoutId={`product-${product.id}`}
                     onClick={() => onProductSelect(product)}
-                    className="group cursor-pointer"
-                    whileHover={{ y: -1 }}
-                    transition={{ duration: 0.2 }}
+                    className="group cursor-pointer transition-transform duration-200 hover:-translate-y-1"
                 >
                     <div className="aspect-[4/5] bg-white dark:bg-zinc-900 rounded-md overflow-hidden">
                         <img
@@ -38,7 +34,7 @@ export function ProductGrid({ products, onProductSelect }: ProductGridProps) {
                             </p>
                         </div>
                     </div>
-                </motion.div>
+                </div>
             ))}
         </div>
     );

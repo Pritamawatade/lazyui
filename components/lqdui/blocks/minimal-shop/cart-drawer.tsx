@@ -1,4 +1,3 @@
-import { motion } from "motion/react";
 import { X } from "lucide-react";
 import { type CartItem } from "./data";
 
@@ -20,18 +19,13 @@ export function CartDrawer({
 
     return (
         <>
-            <motion.div
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 0.5 }}
-                exit={{ opacity: 0 }}
-                className="fixed inset-0 bg-black"
+            <div
+                className="fixed inset-0 bg-black opacity-50 transition-opacity duration-300"
                 onClick={onClose}
             />
-            <motion.div
-                initial={{ x: "100%" }}
-                animate={{ x: 0 }}
-                exit={{ x: "100%" }}
-                className="fixed right-0 z-50 top-0 h-full w-full sm:w-[400px] bg-white dark:bg-zinc-900 shadow-xl"
+            <div
+                className="fixed right-0 z-50 top-0 h-full w-full sm:w-[400px] bg-white dark:bg-zinc-900 shadow-xl transform transition-transform duration-300"
+                style={{ transform: 'translateX(0)' }}
             >
                 <div className="flex flex-col h-full">
                     <div className="flex items-center justify-between p-4 border-b border-zinc-200 dark:border-zinc-800">
@@ -90,7 +84,7 @@ export function CartDrawer({
                         </button>
                     </div>
                 </div>
-            </motion.div>
+            </div>
         </>
     );
 }

@@ -3,7 +3,7 @@
 import type React from "react"
 
 import { useState, useEffect, useRef, type KeyboardEvent } from "react"
-import { AnimatePresence, motion } from "framer-motion"
+import { AnimatePresence, motion } from "motion/react"
 import {
   Search,
   Send,

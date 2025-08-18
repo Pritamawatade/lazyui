@@ -129,7 +129,7 @@ export function Toolbar({
                                 clicked!
                             </div>
                             <motion.div
-                                variants={lineVariants}
+                                variants={lineVariants as any}
                                 initial="initial"
                                 animate="animate"
                                 exit="exit"
@@ -148,7 +148,7 @@ export function Toolbar({
                             animate="animate"
                             custom={selected === item.id}
                             onClick={() => handleItemClick(item.id)}
-                            transition={transition}
+                            transition={transition as any}
                             className={cn(
                                 "relative flex items-center rounded-none px-3 py-2",
                                 "text-sm font-medium transition-colors duration-300",
@@ -170,7 +170,7 @@ export function Toolbar({
                                         initial="initial"
                                         animate="animate"
                                         exit="exit"
-                                        transition={transition}
+                                        transition={transition as any}
                                         className="overflow-hidden"
                                     >
                                         {item.title}

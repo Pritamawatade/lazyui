@@ -1,7 +1,7 @@
 import Input_10 from "@/components/lqdui/input/input-10";
 import Alert04 from "@/components/lqdui/alert/alert-04";
 import Input_08 from "@/components/lqdui/input/input-08";
-import Btn12 from "@/components/lqdui/button/btn-12";
+import Btn11 from "@/components/lqdui/button/btn-11";
 import Btn13 from "@/components/lqdui/button/btn-13";
 
 interface ComponentShowcaseCardProps {
@@ -26,7 +26,7 @@ export function ComponentShowcaseCard({
                             component: (
                                 <div className="w-full flex justify-center gap-4">
                                     <Btn13 className="w-full" label="Welcome" />
-                                    <Btn12 className="w-full" label="Button" />
+                                    <Btn11 className="w-full">Button</Btn11>
                                 </div>
                             ),
                             label: "Welcome",
