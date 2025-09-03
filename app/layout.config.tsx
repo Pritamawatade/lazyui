@@ -16,10 +16,10 @@ export const baseOptions: BaseLayoutProps = {
     ),
   },
   links: [
-    {
-      text: "Pricing",
-      url: "/pricing",
-    },
+    // {
+    //   text: "Pricing",
+    //   url: "/pricing",
+    // },
 
     {
       type: "custom",
