@@ -15,7 +15,7 @@ interface PreviewProps {
 
 const prePath = process.env.VERCEL_PROJECT_PRODUCTION_URL
   ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
-  : "https://ui.codesnipet.com";
+  : "https://lazyui.online";
 
 export function Preview({
   children,
@@ -26,7 +26,7 @@ export function Preview({
   comment = [],
   isBlock = false,
 }: PreviewProps) {
-  console.log(prePath + link);
+  // console.log(prePath + link); // Removed to prevent console spam
   return (
     <>
       <div className={cn("w-full overflow-hidden", className)}>

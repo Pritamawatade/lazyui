@@ -33,7 +33,7 @@ export function CopyWrapper({
     });
 
     const handleCLI = () => {
-        console.log(prePath);
+        // console.log(prePath); // Removed to prevent console spam
         copyToClipboard(
             `bunx shadcn@latest add ${prePath}/r/${fileName?.replace(
                 ".tsx",
