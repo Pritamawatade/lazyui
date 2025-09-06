@@ -78,7 +78,7 @@ const getComponentFiles = async (files: File[], registryType: string) => {
             type: fileType,
             content: fileContent,
             path: normalizedPath,
-            target: typeof file === 'string' ? getTargetPath(registryType) : (file.target || getTargetPath(fileType)),
+            target: typeof file === 'string' ? getTargetPath(registryType) : (file.target ? (file.target.startsWith("/") ? file.target.slice(1) : file.target) : getTargetPath(fileType)),
         };
     });
 

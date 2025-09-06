@@ -409,18 +409,6 @@ export const component: Registry = [
         ],
     },
     {
-        name: "btn-12",
-        type: "registry:component",
-        dependencies: ["lucide-react"],
-        registryDependencies: ["button"],
-        files: [
-            {
-                path: "components/lqdui/button/btn-12.tsx",
-                type: "registry:component",
-            },
-        ],
-    },
-    {
         name: "btn-13",
         type: "registry:component",
         dependencies: ["lucide-react"],
