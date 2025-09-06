@@ -1,8 +1,6 @@
 import Link from "next/link";
 import XIcon from "../icons/x-icon";
 
-
-
 export function HeaderPro() {
 
 
