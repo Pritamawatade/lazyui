@@ -7,9 +7,7 @@ import { IconBrandDiscord, IconBrandLinkedin } from "@tabler/icons-react";
 const navigation = {
   product: [
     { name: "Components", href: "/docs/components/button" },
-    { name: "Documentation", href: "/docs" },
-    { name: "Examples", href: "/examples" },
-    { name: "Changelog", href: "/changelog" },
+    { name: "Documentation", href: "/docs" }
   ],
   resources: [
     { name: "Getting Started", href: "/docs/getting-started" },
