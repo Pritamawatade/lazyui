@@ -157,11 +157,11 @@ export default function TestimonialsSection() {
               <div className="text-gray-600 dark:text-gray-400">Developer Satisfaction</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-gray-900 dark:text-white mb-2">2.8k+</div>
+              <div className="text-3xl font-bold text-gray-900 dark:text-white mb-2">20+</div>
               <div className="text-gray-600 dark:text-gray-400">Active Users</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-gray-900 dark:text-white mb-2">45k+</div>
+              <div className="text-3xl font-bold text-gray-900 dark:text-white mb-2">45+</div>
               <div className="text-gray-600 dark:text-gray-400">Weekly Downloads</div>
             </div>
           </div>
