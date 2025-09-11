@@ -151,7 +151,7 @@ export default function Footer() {
         <div className="mt-12 pt-8 border-t border-gray-200 dark:border-gray-800">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-600 dark:text-gray-400 text-sm">
-              © 2024 Liquid UI. All rights reserved.
+              © 2025 Liquid UI. All rights reserved.
             </p>
             <div className="flex items-center mt-4 md:mt-0">
               <span className="text-gray-600 dark:text-gray-400 text-sm mr-2">
