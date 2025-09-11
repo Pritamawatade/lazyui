@@ -7,9 +7,9 @@ import Link from "next/link";
 import { IconSparkles, IconCode, IconPalette } from "@tabler/icons-react";
 
 const stats = [
-  { icon: FiStar, label: "GitHub Stars", value: "12.5k" },
-  { icon: FiDownload, label: "Weekly Downloads", value: "45k" },
-  { icon: FiUsers, label: "Developers", value: "2.8k" },
+  { icon: FiStar, label: "GitHub Stars", value: "1" },
+  { icon: FiDownload, label: "Weekly Downloads", value: "10" },
+  { icon: FiUsers, label: "Developers", value: "100+" },
 ];
 
 const floatingElements = [
@@ -103,7 +103,7 @@ export default function HeroSection() {
                 Lightning Fast
               </span>
             </h1>
-            <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-lg md:text-2xl text-gray-600 dark:text-gray-300 max-w-4xl mx-auto leading-relaxed">
               The most comprehensive React UI library with 50+ beautiful, accessible components. 
               Copy, paste, and customize to build stunning applications in minutes.
             </p>
@@ -112,21 +112,22 @@ export default function HeroSection() {
           {/* CTA Buttons */}
           <motion.div variants={item as any} className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
             <Button 
-              size="lg" 
-              className="text-lg px-8 py-6 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 shadow-lg hover:shadow-xl transition-all duration-300" 
+              size="sm" 
+              className="text-lg px-6 py-6 border-2 bg-white hover:bg-white text-white transition-all duration-300" 
               asChild
             >
-              <Link href="/docs">
-                Get Started Free <FiArrowRight className="ml-2" />
+              <Link href="/docs" className="flex items-center">
+                <span className="text-gray-900">Get Started Free</span>
+                <FiArrowRight className="ml-2" />
               </Link>
             </Button>
             <Button 
               variant="outline" 
-              size="lg" 
+              size="sm" 
               className="text-lg px-8 py-6 border-2 hover:bg-gray-50 dark:hover:bg-gray-900 transition-all duration-300" 
               asChild
             >
-              <a href="https://github.com/pritamawatade/lazyui" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/pritamawatade/lazyui" target="_blank" rel="noopener noreferrer" className="flex items-center">
                 <FiGithub className="mr-2" /> View on GitHub
               </a>
             </Button>
