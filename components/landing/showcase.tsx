@@ -64,7 +64,7 @@ export function ShowcaseSection() {
                     </div>
                 </div>
                 <Link
-                    href="https://lqdui-demo.vercel.app/"
+                    href="https://lazyui.online"
                     target="_blank"
                     className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2
                     group inline-flex items-center gap-2 px-4 sm:px-8 py-2 sm:py-4 rounded-xl

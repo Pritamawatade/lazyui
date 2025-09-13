@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { FiGithub, FiTwitter, FiMail, FiHeart } from "react-icons/fi";
 import { IconBrandDiscord, IconBrandLinkedin } from "@tabler/icons-react";
+import Image from "next/image";
 
 const navigation = {
   product: [
@@ -59,7 +60,9 @@ export default function Footer() {
           <div className="lg:col-span-2">
             <Link href="/" className="flex items-center space-x-2 mb-4">
               <div className="w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-sm">L</span>
+                {/* <span className="text-white font-bold text-sm">L</span>
+                 */}
+                 <Image src="/logo.png" alt="Liquid UI" width={32} height={32} />
               </div>
               <span className="text-xl font-bold bg-gradient-to-r from-gray-900 to-gray-600 dark:from-white dark:to-gray-300 bg-clip-text text-transparent">
                 Liquid UI

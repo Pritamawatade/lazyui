@@ -12,7 +12,7 @@ interface Btn06Props extends React.ButtonHTMLAttributes<HTMLButtonElement> {
 
 export default function Btn06({
     className,
-    textToCopy = "https://ui.codesnipet.dev/",
+    textToCopy = "https://lazyui.online/",
     successDuration = 1000,
     ...props
 }: Btn06Props) {

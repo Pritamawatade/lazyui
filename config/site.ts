@@ -1,6 +1,6 @@
 export const siteConfig = {
     name: "lqdui",
-    url: "https://lqdui.com",
+    url: "https://lazyui.online",
     ogImage: "#",
     description:
         "Copy, Paste, Customize. A collection of modern, interactive, customizable UI components. Quick and easy to use.",

@@ -82,7 +82,7 @@ export function Header() {
                                             Pricing
                                         </ViewTransitionsLink> */}
                     <Link
-                      href="https://lqdui.pro/templates?utm_source=lqdui.com&utm_medium=header"
+                      href="https://lazyui.online"
                       target="_blank"
                       className="text-sm text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100 transition-colors flex items-center gap-2"
                     >
