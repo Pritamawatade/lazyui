@@ -111,14 +111,14 @@ export default function HeroSection() {
 
           {/* CTA Buttons */}
           <motion.div variants={item as any} className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
-            <Button 
-              size="sm" 
-              className="text-lg px-6 py-6 border-2 bg-white hover:bg-white text-white transition-all duration-300" 
+             <Button
+              size="sm"
               asChild
+              className="bg-zinc-900 text-white hover:bg-zinc-800 dark:bg-white dark:text-zinc-900 dark:hover:bg-zinc-100 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all px-10 py-6 text-lg border-2"
             >
               <Link href="/docs" className="flex items-center">
-                <span className="text-gray-900">Get Started Free</span>
-                <FiArrowRight className="ml-2" />
+                <span className="text-center">Get Started</span>
+               <FiArrowRight />
               </Link>
             </Button>
             <Button 

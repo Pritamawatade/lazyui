@@ -99,7 +99,7 @@ function Faq01() {
     });
 
     return (
-        <section className="py-16 bg-gray-50 dark:bg-black/5 w-full" aria-labelledby="faq-heading">
+        <section className="py-16 bg-white/30 dark:bg-black/5 w-full" aria-labelledby="faq-heading">
             <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
                 <div className="text-center mb-12">
                     <h2 

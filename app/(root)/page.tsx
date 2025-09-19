@@ -41,7 +41,7 @@ export default function Home() {
             <HeroSection />
             <FeaturesSection />
             {/* <ShowcaseSection /> */}
-            <TestimonialsSection />
+            {/* <TestimonialsSection /> */}
             <CTASection />
           </div>
         </motion.main>

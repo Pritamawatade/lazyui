@@ -67,7 +67,7 @@ function Faq03() {
     ];
 
     return (
-        <section className="py-16 w-full">
+        <section className="py-16 w-full bg-white/30">
             <div className="container mx-auto px-4">
                 <div className="max-w-3xl mx-auto">
                     <div className="text-center space-y-4 mb-12">

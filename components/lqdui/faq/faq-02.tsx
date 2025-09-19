@@ -27,7 +27,7 @@ function FAQItem({ question, answer, index }: FAQItemProps) {
                 "group rounded-lg border-[0.5px] border-gray-200/50 dark:border-gray-800/50",
                 "transition-all duration-200 ease-in-out",
                 isOpen
-                    ? "bg-linear-to-br from-white via-gray-50/50 to-white dark:from-white/5 dark:via-white/2 dark:to-white/5"
+                    ? "bg-white/20  text-white/90 dark:bg-white/10 dark:text-black/30"
                     : "hover:bg-gray-50/50 dark:hover:bg-white/[0.02]"
             )}
         >
@@ -38,9 +38,9 @@ function FAQItem({ question, answer, index }: FAQItemProps) {
             >
                 <h3
                     className={cn(
-                        "text-base font-medium transition-colors duration-200 text-left",
-                        "text-gray-700 dark:text-gray-300",
-                        isOpen && "text-gray-900 dark:text-white"
+                        "dark:text-black/90 text-white/30 font-medium transition-colors duration-200 text-left",
+                        "text-gray-700 dark:text-black/50",
+                        isOpen && " text-white/30"
                     )}
                 >
                     {question}
@@ -58,8 +58,8 @@ function FAQItem({ question, answer, index }: FAQItemProps) {
                         "p-0.5 rounded-full shrink-0",
                         "transition-colors duration-200",
                         isOpen
-                            ? "text-primary"
-                            : "text-gray-400 dark:text-gray-500"
+                            ? "text-white/30 border border-white/30"
+                            : "text-gray-400 dark:text-black/90"
                     )}
                 >
                     <ChevronDown className="h-4 w-4" />
@@ -139,7 +139,7 @@ function Faq02() {
     ];
 
     return (
-        <section className="py-16 w-full bg-linear-to-b from-transparent via-gray-50/50 to-transparent dark:from-transparent dark:via-white/[0.02] dark:to-transparent">
+        <section className="py-16 w-full bg-white/30 dark:bg-white/30">
             <div className="container px-4 mx-auto">
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
@@ -155,7 +155,7 @@ function Faq02() {
                     </p>
                 </motion.div>
 
-                <div className="max-w-2xl mx-auto space-y-2">
+                <div className="max-w-2xl mx-auto space-y-2 ">
                     {faqs.map((faq, index) => (
                         <FAQItem key={index} {...faq} index={index} />
                     ))}
